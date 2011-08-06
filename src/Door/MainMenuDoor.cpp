@@ -39,7 +39,7 @@ C_MainMenuDoor::C_MainMenuDoor(int n_x, int n_y, int n_width, int n_height, stri
 void C_MainMenuDoor::DrawContent()
 {
     //door//
-    S_Texture * text = C_TextureMan::Inst()->GetTexture("menu.png");
+    S_Texture * text = C_TextureMan::Inst()->GetTexture("data/texture/menu.png");
     Painter::Inst()->DrawTexture(text);
 }
 

@@ -1753,3 +1753,505 @@
 	"LevelEditor.h"
 	<cstddef>
 
+1309592274 source:c:\_projekty\hle\src\door\door.cpp
+	"Door.h"
+	"DoorSystem.h"
+	"..\Engine.h"
+	<GL/GL.h>
+	"..\Utils\FileMan.h"
+	"..\Utils\FontMan.h"
+
+1309592142 c:\_projekty\hle\src\door\door.h
+	"String.h"
+	"..\Form\Button.h"
+	"..\Form\Form.h"
+	"..\Engine.h"
+
+1292845644 c:\_projekty\hle\src\form\button.h
+	<string>
+	<vector>
+	"..\Utils\Color.h"
+	"Form.h"
+	"..\Utils\FontMan.h"
+
+1293295309 c:\_projekty\hle\src\utils\color.h
+	<GL/GL.h>
+
+1293291818 c:\_projekty\hle\src\form\form.h
+	<string>
+	<iostream>
+	<sstream>
+
+1306611914 c:\_projekty\hle\src\utils\fontman.h
+	"Font.h"
+	<map>
+	<stdexcept>
+
+1293294765 c:\_projekty\hle\src\utils\font.h
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<vector>
+	<string>
+	<ft2build.h>
+	<freetype/freetype.h>
+	<freetype/ftglyph.h>
+	<freetype/ftoutln.h>
+	<freetype/fttrigon.h>
+	<string>
+
+1282398946 c:\_projekty\hle\src\engine.h
+	<SDL/SDL.h>
+	<string>
+
+1293289760 c:\_projekty\hle\src\door\doorsystem.h
+	"Door.h"
+	"..\Form\Button.h"
+	"InformDoor.h"
+	<vector>
+
+1292845644 c:\_projekty\hle\src\door\informdoor.h
+	"Door.h"
+
+1293290200 c:\_projekty\hle\src\utils\fileman.h
+	<SDL/SDL.h>
+	<string>
+
+1309592274 source:c:\_projekty\hle\src\door\doorsystem.cpp
+	"DoorSystem.h"
+	"..\Script\ScriptSystem.h"
+	"..\Script\ScriptDoor.h"
+	"..\Script\ScriptGroupDoor.h"
+	"..\Script\NewScriptKindDoor.h"
+	"..\Script\SetScriptKindDoor.h"
+	"..\Engine.h"
+	"..\Utils\FontMan.h"
+	"..\Utils\FileMan.h"
+	"AllDoors.h"
+
+1306443453 c:\_projekty\hle\src\script\scriptsystem.h
+	"Script.h"
+	"..\Door\Door.h"
+	"..\Form\ButtonGroup.h"
+	"..\Form\Form.h"
+	"ScriptKind.h"
+	"ScriptGroup.h"
+	<vector>
+
+1306516364 c:\_projekty\hle\src\script\script.h
+	"..\Door\Door.h"
+	"..\Form\Form.h"
+	"..\Form\Input.h"
+	"..\Form\ButtonGroup.h"
+	"..\Utils\XML\XMLNode.h"
+	"..\Map.h"
+	<vector>
+
+1293293548 c:\_projekty\hle\src\form\input.h
+	<string>
+	<iostream>
+	<sstream>
+	"..\Utils\Color.h"
+
+1293289928 c:\_projekty\hle\src\form\buttongroup.h
+	<string>
+	<vector>
+	"..\Utils\FontMan.h"
+	"Button.h"
+
+1306529888 c:\_projekty\hle\src\utils\xml\xmlnode.h
+	<string>
+	<fstream>
+	<iostream>
+	<vector>
+	<map>
+
+1309633085 c:\_projekty\hle\src\map.h
+	"Utils\TextureLoader.h"
+	"TilePattern.h"
+	<string>
+
+1293289802 c:\_projekty\hle\src\utils\textureloader.h
+	<string>
+	<GL\GL.h>
+
+1307905886 c:\_projekty\hle\src\tilepattern.h
+
+1286985979 c:\_projekty\hle\src\script\scriptkind.h
+
+1286986238 c:\_projekty\hle\src\script\scriptgroup.h
+
+1306443119 c:\_projekty\hle\src\script\scriptdoor.h
+	"../Door/Door.h"
+	"..\Form\Form.h"
+	"..\Form\Input.h"
+	"..\Form\ButtonGroup.h"
+
+1286986442 c:\_projekty\hle\src\script\scriptgroupdoor.h
+
+1286988392 c:\_projekty\hle\src\script\newscriptkinddoor.h
+
+1286988690 c:\_projekty\hle\src\script\setscriptkinddoor.h
+
+1307899980 c:\_projekty\hle\src\door\alldoors.h
+	"Door.h"
+	"InformDoor.h"
+	"MainMenuDoor.h"
+	"MenuDoor.h"
+	"NewMapDoor.h"
+	"SetMapDoor.h"
+	"SetEditorDoor.h"
+	"LoadMapDoor.h"
+	"SaveMapDoor.h"
+	"MapDoor.h"
+	"TileDoor.h"
+	"PatternDoor.h"
+
+1307649008 c:\_projekty\hle\src\door\mainmenudoor.h
+	"..\Utils\TextureLoader.h"
+
+1292845644 c:\_projekty\hle\src\door\menudoor.h
+
+1292845644 c:\_projekty\hle\src\door\newmapdoor.h
+	"..\Form\Input.h"
+
+1307729610 c:\_projekty\hle\src\door\setmapdoor.h
+	"..\Form\Input.h"
+
+1312659396 c:\_projekty\hle\src\door\seteditordoor.h
+	"..\Form\Input.h"
+
+1292845644 c:\_projekty\hle\src\door\loadmapdoor.h
+	"..\Form\Input.h"
+
+1292845644 c:\_projekty\hle\src\door\savemapdoor.h
+	"..\Form\Input.h"
+
+1308597418 c:\_projekty\hle\src\door\mapdoor.h
+	"..\Map.h"
+
+1307036621 c:\_projekty\hle\src\door\tiledoor.h
+	"..\Map.h"
+	"..\LevelEditor.h"
+
+1312659635 c:\_projekty\hle\src\leveleditor.h
+	"Map.h"
+	"TilePattern.h"
+	"GameSetup.h"
+	<map>
+	<vector>
+
+1312659628 c:\_projekty\hle\src\gamesetup.h
+	"map.h"
+	<vector>
+
+1308597225 c:\_projekty\hle\src\door\patterndoor.h
+	"Door.h"
+	"MapDoor.h"
+
+1293291214 source:c:\_projekty\hle\src\door\informdoor.cpp
+	"InformDoor.h"
+	"..\Utils\FileMan.h"
+	"..\Utils\FontMan.h"
+	<string.h>
+
+1312657423 source:c:\_projekty\hle\src\door\loadmapdoor.cpp
+	<string>
+	<windows.h>
+	"door.h"
+	"DoorSystem.h"
+	"LoadMapDoor.h"
+	"..\Script\ScriptSystem.h"
+	"..\LevelEditor.h"
+
+1312657071 source:c:\_projekty\hle\src\door\mainmenudoor.cpp
+	<string>
+	"..\Utils\TextureMan.h"
+	"..\Utils\Painter.h"
+	"Door.h"
+	"..\Map.h"
+	"MainMenuDoor.h"
+	"DoorSystem.h"
+	"..\Script\ScriptSystem.h"
+	"..\LevelEditor.h"
+
+1312657066 c:\_projekty\hle\src\utils\textureman.h
+	<Gl\Gl.h>
+	<string>
+	<map>
+	<vector>
+	"TextureLoader.h"
+
+1308594687 c:\_projekty\hle\src\utils\painter.h
+	"TextureLoader.h"
+	"Color.h"
+
+1309591731 source:c:\_projekty\hle\src\door\mapdoor.cpp
+	<string>
+	"Door.h"
+	"DoorSystem.h"
+	"MapDoor.h"
+	"..\Map.h"
+	"..\Leveleditor.h"
+	"..\Utils\FileMan.h"
+
+1307899757 source:c:\_projekty\hle\src\door\menudoor.cpp
+	<string>
+	"Door.h"
+	"MenuDoor.h"
+	"DoorSystem.h"
+	"..\Map.h"
+
+1292844229 source:c:\_projekty\hle\src\door\newmapdoor.cpp
+	<string>
+	"door.h"
+	"NewMapDoor.h"
+	"DoorSystem.h"
+	"..\Script\ScriptSystem.h"
+	"..\Map.h"
+	"..\LevelEditor.h"
+
+1309590758 source:c:\_projekty\hle\src\door\patterndoor.cpp
+	"PatternDoor.h"
+	"DoorSystem.h"
+	"MapDoor.h"
+	"../LevelEditor.h"
+	"../utils/painter.h"
+
+1309626646 source:c:\_projekty\hle\src\door\savemapdoor.cpp
+	<string>
+	"Door.h"
+	"SaveMapDoor.h"
+	"..\Script\ScriptSystem.h"
+	"..\Map.h"
+	"..\LevelEditor.h"
+
+1312659539 source:c:\_projekty\hle\src\door\seteditordoor.cpp
+	<string>
+	"Door.h"
+	"SetEditorDoor.h"
+	"..\Script\ScriptSystem.h"
+	"..\LevelEditor.h"
+
+1307729554 source:c:\_projekty\hle\src\door\setmapdoor.cpp
+	<string>
+	"Door.h"
+	"SetMapDoor.h"
+	"..\Script\ScriptSystem.h"
+	"..\LevelEditor.h"
+
+1307901581 source:c:\_projekty\hle\src\door\tiledoor.cpp
+	<string>
+	"Door.h"
+	"..\Map.h"
+	"..\LevelEditor.h"
+	"..\Utils\FileMan.h"
+	"..\Utils\Painter.h"
+	"TileDoor.h"
+	"DoorSystem.h"
+
+1292793189 source:c:\_projekty\hle\src\draw.cpp
+	<GL/GL.h>
+	"Engine.h"
+	"Door\DoorSystem.h"
+	"LevelEditor.h"
+	"Utils\FontMan.h"
+	"Map.h"
+
+1292844229 source:c:\_projekty\hle\src\engine.cpp
+	<GL/gl.h>
+	<SDL/SDL.h>
+	<iostream>
+	<sstream>
+	<stdlib.h>
+	"Engine.h"
+	"Map.h"
+	"Door\Doorsystem.h"
+	"LevelEditor.h"
+	"Script\Scriptsystem.h"
+	"Utils\FontMan.h"
+	"Utils\TextureMan.h"
+
+1293295363 source:c:\_projekty\hle\src\form\button.cpp
+	"Button.h"
+	"..\Engine.h"
+	"..\Door\DoorSystem.h"
+	"..\Utils\FontMan.h"
+	<GL/GL.h>
+
+1293293377 source:c:\_projekty\hle\src\form\buttongroup.cpp
+	"ButtonGroup.h"
+
+1282300924 source:c:\_projekty\hle\src\form\form.cpp
+	"Form.h"
+
+1293293689 source:c:\_projekty\hle\src\form\input.cpp
+	"Form.h"
+	"Input.h"
+	"..\Engine.h"
+	"..\Door\DoorSystem.h"
+	<GL/GL.h>
+	"..\Utils\FontMan.h"
+
+1282306362 source:c:\_projekty\hle\src\form\label.cpp
+	"Form.h"
+	"Input.h"
+
+1309622613 source:c:\_projekty\hle\src\gamesetup.cpp
+	"GameSetup.h"
+	"LevelEditor.h"
+	<cstddef>
+
+1312657575 source:c:\_projekty\hle\src\leveleditor.cpp
+	"LevelEditor.h"
+	"engine.h"
+	"map.h"
+
+1292788115 source:c:\_projekty\hle\src\main.cpp
+	<stdio.h>
+	"engine.h"
+
+1312657066 source:c:\_projekty\hle\src\map.cpp
+	"Map.h"
+	"LevelEditor.h"
+	"Script\ScriptSystem.h"
+	"Utils\TextureMan.h"
+	"Utils\FileMan.h"
+
+1276001898 source:c:\_projekty\hle\src\resource.rc
+
+1293294347 source:c:\_projekty\hle\src\script\newscriptkinddoor.cpp
+	"ScriptSystem.h"
+	"NewScriptKindDoor.h"
+
+1306610187 source:c:\_projekty\hle\src\script\script.cpp
+	"Script.h"
+	"ScriptSystem.h"
+	"..\Form\Form.h"
+	"..\LevelEditor.h"
+	"..\Utils\FileMan.h"
+
+1306443161 source:c:\_projekty\hle\src\script\scriptdoor.cpp
+	"ScriptDoor.h"
+	"ScriptSystem.h"
+	"..\LevelEditor.h"
+	"..\Map.h"
+
+1292536018 source:c:\_projekty\hle\src\script\scriptgroup.cpp
+	"ScriptSystem.h"
+	"..\Utils\FileMan.h"
+
+1293294347 source:c:\_projekty\hle\src\script\scriptgroupdoor.cpp
+	"ScriptSystem.h"
+	"ScriptGroupDoor.h"
+
+1293294347 source:c:\_projekty\hle\src\script\scriptmenudoor.cpp
+	"ScriptSystem.h"
+	"..\Door\DoorSystem.h"
+
+1312659053 source:c:\_projekty\hle\src\script\scriptsystem.cpp
+	"ScriptSystem.h"
+	"..\Door\DoorSystem.h"
+	"..\Map.h"
+	"..\Utils\FileMan.h"
+	"..\LevelEditor.h"
+	"..\Utils\XML\ManXML.h"
+
+1306440376 c:\_projekty\hle\src\utils\xml\manxml.h
+	<string>
+	"XMLNode.h"
+
+1292844229 source:c:\_projekty\hle\src\script\setscriptkinddoor.cpp
+	"ScriptSystem.h"
+	"..\Door\DoorSystem.h"
+	"SetScriptKindDoor.h"
+
+1307084738 source:c:\_projekty\hle\src\tilepattern.cpp
+	<cstddef>
+	<stdio.h>
+	"TilePattern.h"
+	"LevelEditor.h"
+
+1307907292 source:c:\_projekty\hle\src\utils\aliencode\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fstream>
+
+1293018355 c:\_projekty\hle\src\utils\aliencode\lodepng.h
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1293295386 source:c:\_projekty\hle\src\utils\color.cpp
+	"Color.h"
+
+1293290287 source:c:\_projekty\hle\src\utils\fileman.cpp
+	"FileMan.h"
+
+1293294719 source:c:\_projekty\hle\src\utils\font.cpp
+	"Font.h"
+	"FontMan.h"
+
+1293294832 source:c:\_projekty\hle\src\utils\fontman.cpp
+	"FontMan.h "
+	<cstring>
+
+1308595007 source:c:\_projekty\hle\src\utils\painter.cpp
+	<stdlib.h>
+	"Painter.h"
+
+1293224680 source:c:\_projekty\hle\src\utils\texturebmp.cpp
+	"TextureBMP.h"
+	"AlienCode\KalyttaBMP.h"
+	<gl\gl.h>
+
+1293222207 c:\_projekty\hle\src\utils\texturebmp.h
+	<stdio.h>
+	<gl\gl.h>
+	"TextureLoader.h"
+
+1293294005 c:\_projekty\hle\src\utils\aliencode\kalyttabmp.h
+	<cstring>
+
+1312657066 source:c:\_projekty\hle\src\utils\textureman.cpp
+	"TextureMan.h"
+	"TexturePNG.h"
+	"TextureTGA.h"
+	"TextureBMP.h"
+	<stdlib.h>
+	<iterator>
+
+1293020113 c:\_projekty\hle\src\utils\texturepng.h
+	<stdio.h>
+	<gl\gl.h>
+	"TextureLoader.h"
+
+1292783068 c:\_projekty\hle\src\utils\texturetga.h
+	<stdio.h>
+	<gl\gl.h>
+	"TextureLoader.h"
+
+1293228861 source:c:\_projekty\hle\src\utils\texturepng.cpp
+	"TexturePNG.h"
+	"AlienCode\LodePNG.h"
+
+1292783077 source:c:\_projekty\hle\src\utils\texturetga.cpp
+	<string.h>
+	<malloc.h>
+	"TextureTGA.h"
+
+1306612915 source:c:\_projekty\hle\src\utils\xml\manxml.cpp
+	"ManXML.h"
+	<fstream>
+	<iostream>
+
+1306613561 source:c:\_projekty\hle\src\utils\xml\xmlnode.cpp
+	"XMLNode.h"
+

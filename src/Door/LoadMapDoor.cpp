@@ -30,7 +30,9 @@ C_LoadMapDoor::~C_LoadMapDoor()
 void C_LoadMapDoor::FirstTime()
 {
     WIN32_FIND_DATA f;
-    HANDLE h = FindFirstFile("data/*.lev", &f);
+    char c_str[256];
+    sprintf(c_str, "%s/Maps/*.lev", C_LevelEditor::Inst()->GetGameSetup()->GetName().c_str());
+    HANDLE h = FindFirstFile(c_str, &f);
     string allFileNames = "";
     string temp;
     if(h != INVALID_HANDLE_VALUE)

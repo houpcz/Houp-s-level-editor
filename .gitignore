@@ -9,7 +9,6 @@ actual/doxygen
 *.exe
 
 *.dll
-*.exe
 *.o
 *.sln
 *.suo

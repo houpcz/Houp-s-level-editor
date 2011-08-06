@@ -343,7 +343,7 @@ string C_LevelEditor::GetMapSrc(string name)
 {
     string src;
 
-    src = "data/";
+    src = gameSetup->GetName() + "/Maps/";
     src += name;
     src += ".lev";
 

@@ -7,6 +7,7 @@ class C_SetEditorDoor : public C_Door            // formular k nastaveni paramet
 {
     private :
         C_Label * label;
+        C_Input * fName;
         C_InputInteger * fMapColorRed;
         C_InputInteger * fMapColorGreen;
         C_InputInteger * fMapColorBlue;

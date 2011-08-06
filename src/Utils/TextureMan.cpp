@@ -6,7 +6,6 @@
 #include <iterator>
 
 C_TextureMan * C_TextureMan::inst = NULL;
-const string C_TextureMan::srcPrefix = "Data/texture/";
 
 C_TextureMan* C_TextureMan::Inst()
 {
@@ -50,7 +49,7 @@ S_Texture * C_TextureMan::GetTexture(string src)
     if(texture.find(src) == texture.end())
     {
         S_Texture * s_texture = new S_Texture;
-        if(LoadTexture(s_texture, (srcPrefix + src).c_str()))
+        if(LoadTexture(s_texture, src.c_str()))
         {
             texture[src] = s_texture;
         } else {

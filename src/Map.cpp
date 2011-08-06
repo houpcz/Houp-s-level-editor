@@ -493,7 +493,9 @@ S_Texture * C_Map::GetTexture(int layer, int index)
 {
     //C_TextureMan::Inst()->GetTexture();
     char src_c[50];
-    sprintf(src_c, "tileL%dI%d.tga", layer, index);
+    string src = C_LevelEditor::Inst()->GetGameSetup()->GetName();
+
+    sprintf(src_c, "%s/Tiles/tileL%dI%d.tga", src.c_str(), layer, index);
 
     S_Texture * texture = C_TextureMan::Inst()->GetTexture(src_c);
 

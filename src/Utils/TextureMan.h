@@ -15,7 +15,6 @@ class C_TextureMan
     private :
         map<string, C_TextureLoader *> loader;      /// <prefix, loader>, ex. <"tga", C_TextureTGA>
         map<string, S_Texture *> texture;           /// <src path, texture>
-        static const string srcPrefix;              /// in which folder the textures are
 
         static C_TextureMan * inst;                 /// singleton pattern
 

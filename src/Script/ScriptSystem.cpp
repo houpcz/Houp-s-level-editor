@@ -53,7 +53,7 @@ void C_ScriptSystem::NewScriptKind()
 
 void C_ScriptSystem::SaveScriptKind()
 {
-    string src = "data/Script.dat";
+    string src = C_LevelEditor::Inst()->GetGameSetup()->GetName() + "/Script.dat";
     FILE *fw;
     int size = scriptKind.size();
 
@@ -67,7 +67,7 @@ void C_ScriptSystem::SaveScriptKind()
 
 void C_ScriptSystem::LoadScriptKind()
 {
-    string src = "data/Script.dat";
+    string src = C_LevelEditor::Inst()->GetGameSetup()->GetName() + "/Script.dat";
     FILE *fr;
     int size;
 
@@ -89,7 +89,7 @@ void C_ScriptSystem::LoadScriptKind()
 void C_ScriptSystem::SaveXML()
 {
     C_Map * pMap = C_LevelEditor::Inst()->GetMap();
-    string src = "data/" + pMap->GetName() + ".xml";
+    string src = C_LevelEditor::Inst()->GetGameSetup()->GetName() + "/Maps/" + pMap->GetName() + ".xml";
 
     XMLDoc doc = XMLDoc("scripts");
     XMLNode * node = doc.GetRootNode();
@@ -109,7 +109,7 @@ void C_ScriptSystem::SaveScript()
     int sizeScript = script.size();
     int sizeGroup = scriptGroup.size();
 
-    string src = "data/" + pMap->GetName() + ".script";
+    string src = C_LevelEditor::Inst()->GetGameSetup()->GetName() + "/Maps/" + pMap->GetName() + ".script";
     fw = fopen(src.c_str(), "wb");
     src = "data/" + pMap->GetName() + ".tscript";
     fwt = fopen(src.c_str(), "w");
@@ -128,7 +128,7 @@ void C_ScriptSystem::SaveScript()
 
 void C_ScriptSystem::LoadScript(string mapName)
 {
-    string src = "data/" + mapName + ".script";
+    string src = C_LevelEditor::Inst()->GetGameSetup()->GetName() + "/Maps/" + mapName + ".script";
     FILE *fr;
     int size;
 

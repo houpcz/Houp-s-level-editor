@@ -15,6 +15,7 @@ class GameSetup
         int tileHeight;        ///< Height of tiles (eg. 32)
         int tileInRow;          ///< Number of tiles in row in palette
         int tileInCol;          ///< Number of tiles in column in palette
+        string name;            ///< Name of game
         vector<C_Map *> pattern;
     public :
         GameSetup();
@@ -32,7 +33,8 @@ class GameSetup
         void SetMapBGCR(int red) {mapBGColorRed = red;};
         void SetMapBGCG(int green) {mapBGColorGreen = green;};
         void SetMapBGCB(int blue) {mapBGColorBlue = blue;};
-
+        void SetName(string n_name) {name = n_name;};
+        string GetName() const { return "Atlantis"; }; // TODO atlantis
         int GetPatternCount() const { return pattern.size();};
         C_Map * GetPattern(int id);
 };
