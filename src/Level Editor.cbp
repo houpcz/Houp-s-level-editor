@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Level Editor" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="..\bin\HLE" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="..\bin" />
+				<Option object_output="..\obj" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-w" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="..\bin\HLE" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="..\bin" />
+				<Option object_output="..\obj" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:\MinGW\SDL-1.2.13\include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="opengl32" />
+			<Add library="freetype" />
+			<Add library="glu32" />
+			<Add library="SDL" />
+			<Add directory="C:\MinGW\SDL-1.2.13\lib" />
+		</Linker>
+		<Unit filename="Door\AllDoors.h" />
+		<Unit filename="Door\Door.cpp" />
+		<Unit filename="Door\Door.h" />
+		<Unit filename="Door\DoorSystem.cpp" />
+		<Unit filename="Door\DoorSystem.h" />
+		<Unit filename="Door\DoorSystemMain.h" />
+		<Unit filename="Door\InformDoor.cpp" />
+		<Unit filename="Door\InformDoor.h" />
+		<Unit filename="Door\LoadMapDoor.cpp" />
+		<Unit filename="Door\LoadMapDoor.h" />
+		<Unit filename="Door\MainMenuDoor.cpp" />
+		<Unit filename="Door\MainMenuDoor.h" />
+		<Unit filename="Door\MapDoor.cpp" />
+		<Unit filename="Door\MapDoor.h" />
+		<Unit filename="Door\MenuDoor.cpp" />
+		<Unit filename="Door\MenuDoor.h" />
+		<Unit filename="Door\NewMapDoor.cpp" />
+		<Unit filename="Door\NewMapDoor.h" />
+		<Unit filename="Door\PatternDoor.cpp" />
+		<Unit filename="Door\PatternDoor.h" />
+		<Unit filename="Door\SaveMapDoor.cpp" />
+		<Unit filename="Door\SaveMapDoor.h" />
+		<Unit filename="Door\SetEditorDoor.cpp" />
+		<Unit filename="Door\SetEditorDoor.h" />
+		<Unit filename="Door\SetMapDoor.cpp" />
+		<Unit filename="Door\SetMapDoor.h" />
+		<Unit filename="Door\TileDoor.cpp" />
+		<Unit filename="Door\TileDoor.h" />
+		<Unit filename="Draw.cpp" />
+		<Unit filename="Engine.cpp" />
+		<Unit filename="Engine.h" />
+		<Unit filename="Form\Button.cpp" />
+		<Unit filename="Form\Button.h" />
+		<Unit filename="Form\ButtonGroup.cpp" />
+		<Unit filename="Form\ButtonGroup.h" />
+		<Unit filename="Form\Form.cpp" />
+		<Unit filename="Form\Form.h" />
+		<Unit filename="Form\Input.cpp" />
+		<Unit filename="Form\Input.h" />
+		<Unit filename="Form\Label.cpp" />
+		<Unit filename="GameSetup.cpp" />
+		<Unit filename="GameSetup.h" />
+		<Unit filename="LevelEditor.cpp" />
+		<Unit filename="LevelEditor.h" />
+		<Unit filename="Main.cpp" />
+		<Unit filename="Map.cpp" />
+		<Unit filename="Map.h" />
+		<Unit filename="Resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="Script\NewScriptKindDoor.cpp" />
+		<Unit filename="Script\NewScriptKindDoor.h" />
+		<Unit filename="Script\Script.cpp" />
+		<Unit filename="Script\Script.h" />
+		<Unit filename="Script\ScriptDoor.cpp" />
+		<Unit filename="Script\ScriptDoor.h" />
+		<Unit filename="Script\ScriptGroup.cpp" />
+		<Unit filename="Script\ScriptGroup.h" />
+		<Unit filename="Script\ScriptGroupDoor.cpp" />
+		<Unit filename="Script\ScriptGroupDoor.h" />
+		<Unit filename="Script\ScriptKind.h" />
+		<Unit filename="Script\ScriptMenuDoor.cpp" />
+		<Unit filename="Script\ScriptSystem.cpp" />
+		<Unit filename="Script\ScriptSystem.h" />
+		<Unit filename="Script\SetScriptKindDoor.cpp" />
+		<Unit filename="Script\SetScriptKindDoor.h" />
+		<Unit filename="TilePattern.cpp" />
+		<Unit filename="TilePattern.h" />
+		<Unit filename="Utils\AlienCode\KalyttaBMP.h" />
+		<Unit filename="Utils\AlienCode\LodePNG.cpp" />
+		<Unit filename="Utils\AlienCode\LodePNG.h" />
+		<Unit filename="Utils\Color.cpp" />
+		<Unit filename="Utils\Color.h" />
+		<Unit filename="Utils\FileMan.cpp" />
+		<Unit filename="Utils\FileMan.h" />
+		<Unit filename="Utils\Font.cpp" />
+		<Unit filename="Utils\Font.h" />
+		<Unit filename="Utils\FontMan.cpp" />
+		<Unit filename="Utils\FontMan.h" />
+		<Unit filename="Utils\Painter.cpp" />
+		<Unit filename="Utils\Painter.h" />
+		<Unit filename="Utils\TextureBMP.cpp" />
+		<Unit filename="Utils\TextureBMP.h" />
+		<Unit filename="Utils\TextureLoader.h" />
+		<Unit filename="Utils\TextureMan.cpp" />
+		<Unit filename="Utils\TextureMan.h" />
+		<Unit filename="Utils\TexturePNG.cpp" />
+		<Unit filename="Utils\TexturePNG.h" />
+		<Unit filename="Utils\TextureTGA.cpp" />
+		<Unit filename="Utils\TextureTGA.h" />
+		<Unit filename="Utils\XML\ManXML.cpp" />
+		<Unit filename="Utils\XML\ManXML.h" />
+		<Unit filename="Utils\XML\XMLNode.cpp" />
+		<Unit filename="Utils\XML\XMLNode.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project project_number="1" />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

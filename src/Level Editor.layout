@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="Door\AllDoors.h" open="0" top="0" tabpos="0">
+		<Cursor position="339" topLine="0" />
+	</File>
+	<File name="Door\Door.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="12789" topLine="428" />
+	</File>
+	<File name="Door\Door.h" open="1" top="0" tabpos="3">
+		<Cursor position="4924" topLine="107" />
+	</File>
+	<File name="Door\DoorSystem.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="1570" topLine="61" />
+	</File>
+	<File name="Door\DoorSystem.h" open="0" top="0" tabpos="3">
+		<Cursor position="174" topLine="43" />
+	</File>
+	<File name="Door\InformDoor.cpp" open="0" top="0" tabpos="20">
+		<Cursor position="2041" topLine="76" />
+	</File>
+	<File name="Door\InformDoor.h" open="0" top="0" tabpos="0">
+		<Cursor position="257" topLine="0" />
+	</File>
+	<File name="Door\LoadMapDoor.cpp" open="1" top="0" tabpos="11">
+		<Cursor position="2444" topLine="80" />
+	</File>
+	<File name="Door\LoadMapDoor.h" open="0" top="0" tabpos="4">
+		<Cursor position="486" topLine="1" />
+	</File>
+	<File name="Door\MainMenuDoor.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="287" topLine="26" />
+	</File>
+	<File name="Door\MainMenuDoor.h" open="0" top="0" tabpos="19">
+		<Cursor position="479" topLine="12" />
+	</File>
+	<File name="Door\MapDoor.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="1146" topLine="60" />
+	</File>
+	<File name="Door\MapDoor.h" open="0" top="0" tabpos="9">
+		<Cursor position="1478" topLine="29" />
+	</File>
+	<File name="Door\MenuDoor.cpp" open="0" top="0" tabpos="15">
+		<Cursor position="111" topLine="0" />
+	</File>
+	<File name="Door\MenuDoor.h" open="0" top="0" tabpos="0">
+		<Cursor position="309" topLine="0" />
+	</File>
+	<File name="Door\NewMapDoor.cpp" open="0" top="0" tabpos="15">
+		<Cursor position="1894" topLine="48" />
+	</File>
+	<File name="Door\NewMapDoor.h" open="0" top="0" tabpos="2">
+		<Cursor position="439" topLine="7" />
+	</File>
+	<File name="Door\PatternDoor.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="3138" topLine="90" />
+	</File>
+	<File name="Door\PatternDoor.h" open="0" top="0" tabpos="5">
+		<Cursor position="93" topLine="1" />
+	</File>
+	<File name="Door\SaveMapDoor.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="1330" topLine="40" />
+	</File>
+	<File name="Door\SaveMapDoor.h" open="0" top="0" tabpos="5">
+		<Cursor position="368" topLine="5" />
+	</File>
+	<File name="Door\SetEditorDoor.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="2916" topLine="78" />
+	</File>
+	<File name="Door\SetEditorDoor.h" open="0" top="0" tabpos="7">
+		<Cursor position="436" topLine="4" />
+	</File>
+	<File name="Door\SetMapDoor.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="2714" topLine="7" />
+	</File>
+	<File name="Door\SetMapDoor.h" open="0" top="0" tabpos="6">
+		<Cursor position="323" topLine="2" />
+	</File>
+	<File name="Door\TileDoor.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="8257" topLine="243" />
+	</File>
+	<File name="Door\TileDoor.h" open="0" top="0" tabpos="7">
+		<Cursor position="1011" topLine="20" />
+	</File>
+	<File name="Draw.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="149" topLine="21" />
+	</File>
+	<File name="Engine.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="352" topLine="22" />
+	</File>
+	<File name="Engine.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="18" />
+	</File>
+	<File name="Form\Button.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="2120" topLine="89" />
+	</File>
+	<File name="Form\Button.h" open="0" top="0" tabpos="21">
+		<Cursor position="2790" topLine="44" />
+	</File>
+	<File name="Form\ButtonGroup.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1237" topLine="46" />
+	</File>
+	<File name="Form\ButtonGroup.h" open="0" top="0" tabpos="9">
+		<Cursor position="1475" topLine="22" />
+	</File>
+	<File name="Form\Form.cpp" open="0" top="0" tabpos="24">
+		<Cursor position="57" topLine="0" />
+	</File>
+	<File name="Form\Form.h" open="0" top="0" tabpos="23">
+		<Cursor position="335" topLine="6" />
+	</File>
+	<File name="Form\Input.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="13380" topLine="376" />
+	</File>
+	<File name="Form\Input.h" open="0" top="0" tabpos="0">
+		<Cursor position="1853" topLine="41" />
+	</File>
+	<File name="GameSetup.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="138" topLine="0" />
+	</File>
+	<File name="GameSetup.h" open="0" top="0" tabpos="2">
+		<Cursor position="753" topLine="23" />
+	</File>
+	<File name="LevelEditor.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="9446" topLine="341" />
+	</File>
+	<File name="LevelEditor.h" open="1" top="0" tabpos="10">
+		<Cursor position="4189" topLine="83" />
+	</File>
+	<File name="Main.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="101" topLine="0" />
+	</File>
+	<File name="Map.cpp" open="1" top="1" tabpos="7">
+		<Cursor position="10203" topLine="328" />
+	</File>
+	<File name="Map.h" open="1" top="0" tabpos="6">
+		<Cursor position="2516" topLine="72" />
+	</File>
+	<File name="Script\NewScriptKindDoor.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="8032" topLine="214" />
+	</File>
+	<File name="Script\Script.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="6385" topLine="178" />
+	</File>
+	<File name="Script\Script.h" open="0" top="0" tabpos="5">
+		<Cursor position="192" topLine="0" />
+	</File>
+	<File name="Script\ScriptDoor.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="79" topLine="0" />
+	</File>
+	<File name="Script\ScriptDoor.h" open="0" top="0" tabpos="0">
+		<Cursor position="21" topLine="0" />
+	</File>
+	<File name="Script\ScriptGroup.cpp" open="0" top="0" tabpos="26">
+		<Cursor position="46" topLine="0" />
+	</File>
+	<File name="Script\ScriptGroup.h" open="0" top="0" tabpos="11">
+		<Cursor position="846" topLine="0" />
+	</File>
+	<File name="Script\ScriptGroupDoor.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2776" topLine="75" />
+	</File>
+	<File name="Script\ScriptMenuDoor.cpp" open="0" top="0" tabpos="15">
+		<Cursor position="814" topLine="40" />
+	</File>
+	<File name="Script\ScriptSystem.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="2204" topLine="89" />
+	</File>
+	<File name="Script\ScriptSystem.h" open="0" top="0" tabpos="2">
+		<Cursor position="1508" topLine="31" />
+	</File>
+	<File name="Script\SetScriptKindDoor.cpp" open="0" top="0" tabpos="29">
+		<Cursor position="4444" topLine="142" />
+	</File>
+	<File name="TilePattern.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="389" topLine="151" />
+	</File>
+	<File name="TilePattern.h" open="0" top="0" tabpos="5">
+		<Cursor position="403" topLine="17" />
+	</File>
+	<File name="Utils\AlienCode\KalyttaBMP.h" open="0" top="0" tabpos="6">
+		<Cursor position="3627" topLine="140" />
+	</File>
+	<File name="Utils\AlienCode\LodePNG.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="128431" topLine="3634" />
+	</File>
+	<File name="Utils\AlienCode\LodePNG.h" open="0" top="0" tabpos="0">
+		<Cursor position="28110" topLine="544" />
+	</File>
+	<File name="Utils\Color.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="968" topLine="31" />
+	</File>
+	<File name="Utils\Color.h" open="0" top="0" tabpos="1">
+		<Cursor position="1135" topLine="35" />
+	</File>
+	<File name="Utils\FileMan.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="1143" topLine="62" />
+	</File>
+	<File name="Utils\FileMan.h" open="0" top="0" tabpos="2">
+		<Cursor position="124" topLine="8" />
+	</File>
+	<File name="Utils\Font.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4498" topLine="132" />
+	</File>
+	<File name="Utils\Font.h" open="0" top="0" tabpos="14">
+		<Cursor position="1178" topLine="15" />
+	</File>
+	<File name="Utils\FontMan.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="3771" topLine="133" />
+	</File>
+	<File name="Utils\FontMan.h" open="0" top="0" tabpos="9">
+		<Cursor position="2169" topLine="27" />
+	</File>
+	<File name="Utils\Painter.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="895" topLine="26" />
+	</File>
+	<File name="Utils\Painter.h" open="0" top="0" tabpos="7">
+		<Cursor position="92" topLine="0" />
+	</File>
+	<File name="Utils\TextureBMP.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="709" topLine="4" />
+	</File>
+	<File name="Utils\TextureBMP.h" open="0" top="0" tabpos="9">
+		<Cursor position="259" topLine="0" />
+	</File>
+	<File name="Utils\TextureLoader.h" open="0" top="0" tabpos="6">
+		<Cursor position="121" topLine="7" />
+	</File>
+	<File name="Utils\TextureMan.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="1374" topLine="0" />
+	</File>
+	<File name="Utils\TextureMan.h" open="0" top="0" tabpos="2">
+		<Cursor position="685" topLine="0" />
+	</File>
+	<File name="Utils\TexturePNG.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="388" topLine="5" />
+	</File>
+	<File name="Utils\TexturePNG.h" open="0" top="0" tabpos="6">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Utils\TextureTGA.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="6768" topLine="143" />
+	</File>
+	<File name="Utils\TextureTGA.h" open="0" top="0" tabpos="4">
+		<Cursor position="0" topLine="23" />
+	</File>
+	<File name="Utils\XML\ManXML.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="329" topLine="7" />
+	</File>
+	<File name="Utils\XML\XMLNode.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="139" topLine="0" />
+	</File>
+	<File name="Utils\XML\XMLNode.h" open="0" top="0" tabpos="3">
+		<Cursor position="462" topLine="12" />
+	</File>
+</CodeBlocks_layout_file>

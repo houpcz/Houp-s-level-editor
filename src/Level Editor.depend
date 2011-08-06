@@ -1,0 +1,1755 @@
+# depslib dependency file v1.0
+1230047528 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\attributedoor.cpp
+	<string>
+	"Door.h"
+	"map.h"
+	"LevelEditor.h"
+
+1254489006 c:\documents and settings\houp\dokumenty\programy\level editor\actual\door.h
+	"String.h"
+	"Texture.h"
+	"Button.h"
+	"form.h"
+	"engine.h"
+	"map.h"
+
+1254488982 c:\documents and settings\houp\dokumenty\programy\level editor\actual\texture.h
+	<stdio.h>
+	<gl\gl.h>
+
+1227348856 c:\documents and settings\houp\dokumenty\programy\level editor\actual\map.h
+	"Texture.h"
+	<string>
+
+1227380388 c:\documents and settings\houp\dokumenty\programy\level editor\actual\leveleditor.h
+	"Map.h"
+	<vector>
+
+1230046442 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\door.cpp
+	"Door.h"
+	"DoorSystem.h"
+	"engine.h"
+	<GL/GL.h>
+	"FreeType.h"
+
+1253263500 c:\documents and settings\houp\dokumenty\programy\level editor\actual\engine.h
+	<SDL/SDL.h>
+	<string>
+
+1221475946 c:\documents and settings\houp\dokumenty\programy\level editor\actual\freetype.h
+	<ft2build.h>
+	<freetype/freetype.h>
+	<freetype/ftglyph.h>
+	<freetype/ftoutln.h>
+	<freetype/fttrigon.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<vector>
+	<string>
+	<stdexcept>
+
+1254496854 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\doorsystem.cpp
+	"DoorSystem.h"
+	"ScriptSystem.h"
+	"engine.h"
+	"freetype.h"
+
+1253263424 c:\documents and settings\houp\dokumenty\programy\level editor\actual\doorsystem.h
+	"Door.h"
+	"Button.h"
+	<vector>
+
+1220812276 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\freetype.cpp
+	"freetype.h"
+	"engine.h"
+
+1226180408 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\leveleditor.cpp
+	"LevelEditor.h"
+	"engine.h"
+	"map.h"
+
+1221483936 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\list.cpp
+	<cstdlib>
+	"List.h"
+
+1221483924 c:\documents and settings\houp\dokumenty\programy\level editor\actual\list.h
+	"Door.h"
+
+1227468696 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\mainmenudoor.cpp
+	<string>
+	"Texture.h"
+	"door.h"
+	"map.h"
+	"doorSystem.h"
+	"scriptSystem.h"
+
+1254491186 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\map.cpp
+	"Map.h"
+	"freetype.h"
+	"levelEditor.h"
+	"ScriptSystem.h"
+
+1254489116 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\mapdoor.cpp
+	<string>
+	"Door.h"
+	"DoorSystem.h"
+	"Map.h"
+	"leveleditor.h"
+
+1213097786 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\tgaloader.cpp
+	<string.h>
+	<malloc.h>
+	"tga.h"
+
+1120751014 c:\documents and settings\houp\dokumenty\programy\level editor\actual\tga.h
+	<stdio.h>
+	<gl\gl.h>
+	"texture.h"
+
+1254488982 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\tiledoor.cpp
+	<string>
+	"Door.h"
+	"map.h"
+	"LevelEditor.h"
+
+1226162282 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\draw.cpp
+	<GL/GL.h>
+	"engine.h"
+	"FreeType.h"
+	"DoorSystem.h"
+	"texture.h"
+	"boolean.h"
+	"LevelEditor.h"
+	"map.h"
+
+1148154152 c:\documents and settings\houp\dokumenty\programy\level editor\actual\boolean.h
+
+1253264304 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\engine.cpp
+	<GL/gl.h>
+	<SDL/SDL.h>
+	<stdlib.h>
+	<iostream>
+	<sstream>
+	<stdlib.h>
+	"FreeType.h"
+	"engine.h"
+	"texture.h"
+	"boolean.h"
+	"map.h"
+	"doorsystem.h"
+	"scriptsystem.h"
+
+1253263424 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\main.cpp
+	<stdio.h>
+	"engine.h"
+	"boolean.h"
+
+1254489166 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\texture.cpp
+	"texture.h"
+	"boolean.h"
+
+1227463216 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\button.cpp
+	"Button.h"
+	"engine.h"
+	"doorsystem.h"
+	<GL/GL.h>
+	"FreeType.h"
+
+1227463136 c:\documents and settings\houp\dokumenty\programy\level editor\actual\button.h
+	<string>
+	<vector>
+
+1254496940 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\menudoor.cpp
+	<string>
+	"Texture.h"
+	"door.h"
+	"DoorSystem.h"
+	"map.h"
+
+1253552630 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\input.cpp
+	"form.h"
+	"engine.h"
+	"doorSystem.h"
+	<GL/GL.h>
+	"FreeType.h"
+
+1227516556 c:\documents and settings\houp\dokumenty\programy\level editor\actual\form.h
+	<string>
+	<iostream>
+	<sstream>
+
+1253264674 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\newmapdoor.cpp
+	<string>
+	"door.h"
+	"DoorSystem.h"
+	"ScriptSystem.h"
+	"map.h"
+
+1221484482 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\label.cpp
+	"form.h"
+
+1227468660 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\informdoor.cpp
+	"door.h"
+	"FreeType.h"
+	<string.h>
+
+1220815312 c:\documents and settings\houp\dokumenty\programy\level editor\actual\informdoor.h
+	"Door.h"
+	<string>
+
+1215339746 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\attributedoor.cpp
+	<string>
+	"Door.h"
+	"map.h"
+	"LevelEditor.h"
+
+1221472338 c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\door.h
+	"String.h"
+	"Texture.h"
+	"Button.h"
+	"form.h"
+	"engine.h"
+
+1215339746 c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\texture.h
+	<stdio.h>
+	<gl\gl.h>
+
+1221475752 c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\button.h
+	<string>
+
+1221476196 c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\form.h
+	<string>
+
+1184860182 c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\engine.h
+	<SDL/SDL.h>
+
+1220803694 c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\map.h
+	"Texture.h"
+
+1184934636 c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\leveleditor.h
+
+1221475768 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\button.cpp
+	"Button.h"
+	"engine.h"
+	"doorsystem.h"
+	<GL/GL.h>
+	"FreeType.h"
+
+1221472674 c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\doorsystem.h
+	"Door.h"
+	"Button.h"
+	<vector>
+
+1221475946 c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\freetype.h
+	<ft2build.h>
+	<freetype/freetype.h>
+	<freetype/ftglyph.h>
+	<freetype/ftoutln.h>
+	<freetype/fttrigon.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<vector>
+	<string>
+	<stdexcept>
+
+1221476674 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\door.cpp
+	"Door.h"
+	"DoorSystem.h"
+	"engine.h"
+	<GL/GL.h>
+	"FreeType.h"
+
+1221476090 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\doorsystem.cpp
+	"DoorSystem.h"
+	"engine.h"
+	"freetype.h"
+
+1220812276 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\freetype.cpp
+	"freetype.h"
+	"engine.h"
+
+1221476784 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\informdoor.cpp
+	"door.h"
+	"FreeType.h"
+	<string.h>
+
+1221476280 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\input.cpp
+	"form.h"
+	"engine.h"
+	"doorSystem.h"
+	<GL/GL.h>
+	"FreeType.h"
+	<iostream>
+	<sstream>
+
+1220124554 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\label.cpp
+	"form.h"
+
+1184934494 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\leveleditor.cpp
+	"LevelEditor.h"
+
+1183733314 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\list.cpp
+	<cstdlib>
+	"List.h"
+
+1183733306 c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\list.h
+	"Door.h"
+
+1220131282 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\mainmenudoor.cpp
+	<string>
+	"Texture.h"
+	"door.h"
+	"map.h"
+	"doorSystem.h"
+
+1220803752 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\map.cpp
+	"Map.h"
+	"freetype.h"
+
+1220096052 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\mapdoor.cpp
+	<string>
+	"Door.h"
+	"Map.h"
+	"leveleditor.h"
+
+1221475836 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\menudoor.cpp
+	<string>
+	"Texture.h"
+	"door.h"
+	"DoorSystem.h"
+	"map.h"
+
+1221476562 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\newmapdoor.cpp
+	<string>
+	"Texture.h"
+	"door.h"
+	"DoorSystem.h"
+	"map.h"
+
+1213097786 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\tgaloader.cpp
+	<string.h>
+	<malloc.h>
+	"tga.h"
+
+1120751014 c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\tga.h
+	<stdio.h>
+	<gl\gl.h>
+	"texture.h"
+
+1216925816 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\tiledoor.cpp
+	<string>
+	"Door.h"
+	"map.h"
+	"LevelEditor.h"
+
+1216922816 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\draw.cpp
+	<GL/GL.h>
+	"engine.h"
+	"FreeType.h"
+	"DoorSystem.h"
+	"texture.h"
+	"boolean.h"
+	"map.h"
+
+1148154152 c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\boolean.h
+
+1220111150 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\engine.cpp
+	<GL/gl.h>
+	<SDL/SDL.h>
+	<stdlib.h>
+	"FreeType.h"
+	"engine.h"
+	"texture.h"
+	"boolean.h"
+	"map.h"
+
+1215340250 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\main.cpp
+	<stdio.h>
+	"engine.h"
+	"boolean.h"
+
+1215339746 source:c:\documents and settings\houp\dokumenty\programy\level editor\15.9.2008\texture.cpp
+	"texture.h"
+	"boolean.h"
+
+1221770260 c:\documents and settings\houp\dokumenty\programy\level editor\actual\scriptdoor.h
+	"Door.h"
+	"button.h"
+	"form.h"
+	<vector>
+
+1227468844 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\setscriptkinddoor.cpp
+	"scriptSystem.h"
+	"doorSystem.h"
+
+1253264364 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\scriptsystem.cpp
+	"ScriptSystem.h"
+	"doorsystem.h"
+	"map.h"
+
+1227468752 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\newscriptkinddoor.cpp
+	"ScriptSystem.h"
+
+1234553820 c:\documents and settings\houp\dokumenty\programy\level editor\actual\scriptsystem.h
+	"Script.h"
+	"Door.h"
+	"button.h"
+	"form.h"
+	<vector>
+
+1227468776 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\script.cpp
+	"script.h"
+	"scriptSystem.h"
+	"form.h"
+	"levelEditor.h"
+
+1227519716 c:\documents and settings\houp\dokumenty\programy\level editor\actual\script.h
+	"Door.h"
+	"form.h"
+	"map.h"
+	<vector>
+
+1234554122 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\scriptmenudoor.cpp
+	"scriptSystem.h"
+	"doorSystem.h"
+
+1253264672 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\loadmapdoor.cpp
+	<string>
+	"door.h"
+	"DoorSystem.h"
+	"ScriptSystem.h"
+	"map.h"
+
+1227468762 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\savemapdoor.cpp
+	<string>
+	"door.h"
+	"DoorSystem.h"
+	"ScriptSystem.h"
+	"map.h"
+
+1227468830 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\setmapdoor.cpp
+	<string>
+	"door.h"
+	"DoorSystem.h"
+	"ScriptSystem.h"
+	"map.h"
+
+1234554152 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\scriptgroup.cpp
+	"ScriptSystem.h"
+
+1227437810 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\buttongroup.cpp
+	"Button.h"
+
+1234553896 source:c:\documents and settings\houp\dokumenty\programy\level editor\actual\scriptgroupdoor.cpp
+	"ScriptSystem.h"
+
+1278662256 source:c:\programy\level editor\actual\attributedoor.cpp
+	<string>
+	"Door.h"
+	"map.h"
+	"LevelEditor.h"
+
+1292326950 c:\programy\level editor\actual\door.h
+	"String.h"
+	"Texture.h"
+	"Button.h"
+	"Form.h"
+	"Engine.h"
+
+1292325358 c:\programy\level editor\actual\texture.h
+	<stdio.h>
+	<gl\gl.h>
+
+1292520926 c:\programy\level editor\actual\button.h
+	<string>
+	<vector>
+	"Color.h"
+	"Form.h"
+	"FontMan.h"
+
+1282299138 c:\programy\level editor\actual\form.h
+	<string>
+	<iostream>
+	<sstream>
+
+1282395346 c:\programy\level editor\actual\engine.h
+	<SDL/SDL.h>
+	<string>
+
+1292842816 c:\programy\level editor\actual\map.h
+	"Utils\TextureLoader.h"
+	<string>
+
+1286126775 c:\programy\level editor\actual\leveleditor.h
+	"Map.h"
+	<map>
+	<vector>
+
+1292524500 source:c:\programy\level editor\actual\button.cpp
+	"Button.h"
+	"Engine.h"
+	"DoorSystem.h"
+	"FontMan.h"
+	<GL/GL.h>
+
+1283012259 c:\programy\level editor\actual\doorsystem.h
+	"Door.h"
+	"Button.h"
+	"InformDoor.h"
+	<vector>
+
+1279814449 c:\programy\level editor\actual\freetype.h
+	<ft2build.h>
+	<freetype/freetype.h>
+	<freetype/ftglyph.h>
+	<freetype/ftoutln.h>
+	<freetype/fttrigon.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<vector>
+	<string>
+	<stdexcept>
+
+1292521041 source:c:\programy\level editor\actual\buttongroup.cpp
+	"ButtonGroup.h"
+
+1286123485 source:c:\programy\level editor\actual\door.cpp
+	"Door.h"
+	"DoorSystem.h"
+	"Engine.h"
+	<GL/GL.h>
+	"FileMan.h"
+	"FontMan.h"
+
+1292519866 source:c:\programy\level editor\actual\doorsystem.cpp
+	"DoorSystem.h"
+	"ScriptSystem.h"
+	"ScriptGroupDoor.h"
+	"NewScriptKindDoor.h"
+	"SetScriptKindDoor.h"
+	"Engine.h"
+	"FontMan.h"
+	"FileMan.h"
+	"AllDoors.h"
+
+1286985090 c:\programy\level editor\actual\scriptsystem.h
+	"Script.h"
+	"Door.h"
+	"ButtonGroup.h"
+	"Form.h"
+	"ScriptKind.h"
+	"ScriptGroup.h"
+	<vector>
+
+1292356551 c:\programy\level editor\actual\script.h
+	"Door.h"
+	"Form.h"
+	"Input.h"
+	"ButtonGroup.h"
+	"Map.h"
+	<vector>
+
+1279814416 source:c:\programy\level editor\actual\freetype.cpp
+	"freetype.h"
+	"engine.h"
+
+1279884274 source:c:\programy\level editor\actual\informdoor.cpp
+	"InformDoor.h"
+	"FileMan.h"
+	"FontMan.h"
+	<string.h>
+
+1292518674 source:c:\programy\level editor\actual\input.cpp
+	"Form.h"
+	"Input.h"
+	"Engine.h"
+	"DoorSystem.h"
+	<GL/GL.h>
+	"FontMan.h"
+
+1282302762 source:c:\programy\level editor\actual\label.cpp
+	"Form.h"
+	"Input.h"
+
+1286129156 source:c:\programy\level editor\actual\leveleditor.cpp
+	"LevelEditor.h"
+	"engine.h"
+	"map.h"
+
+1221483936 source:c:\programy\level editor\actual\list.cpp
+	<cstdlib>
+	"List.h"
+
+1221483924 c:\programy\level editor\actual\list.h
+	"Door.h"
+
+1292401863 source:c:\programy\level editor\actual\loadmapdoor.cpp
+	<string>
+	<windows.h>
+	"door.h"
+	"DoorSystem.h"
+	"LoadMapDoor.h"
+	"ScriptSystem.h"
+	"LevelEditor.h"
+
+1286127762 source:c:\programy\level editor\actual\mainmenudoor.cpp
+	<string>
+	"Texture.h"
+	"Door.h"
+	"Map.h"
+	"MainMenuDoor.h"
+	"MapManagerDoor.h"
+	"DoorSystem.h"
+	"ScriptSystem.h"
+	"LevelEditor.h"
+
+1292840629 source:c:\programy\level editor\actual\map.cpp
+	"Map.h"
+	"LevelEditor.h"
+	"Script\ScriptSystem.h"
+	"Utils\TextureMan.h"
+
+1286127537 source:c:\programy\level editor\actual\mapdoor.cpp
+	<string>
+	"Door.h"
+	"DoorSystem.h"
+	"MapDoor.h"
+	"Map.h"
+	"Leveleditor.h"
+	"FileMan.h"
+
+1292521561 source:c:\programy\level editor\actual\menudoor.cpp
+	<string>
+	"Texture.h"
+	"Door.h"
+	"MenuDoor.h"
+	"DoorSystem.h"
+	"Map.h"
+
+1286129977 source:c:\programy\level editor\actual\newmapdoor.cpp
+	<string>
+	"door.h"
+	"NewMapDoor.h"
+	"DoorSystem.h"
+	"ScriptSystem.h"
+	"Map.h"
+	"LevelEditor.h"
+
+1292520051 source:c:\programy\level editor\actual\newscriptkinddoor.cpp
+	"ScriptSystem.h"
+	"NewScriptKindDoor.h"
+
+1286129978 source:c:\programy\level editor\actual\savemapdoor.cpp
+	<string>
+	"Door.h"
+	"SaveMapDoor.h"
+	"ScriptSystem.h"
+	"Map.h"
+	"LevelEditor.h"
+
+1292520444 source:c:\programy\level editor\actual\script.cpp
+	"script.h"
+	"scriptSystem.h"
+	"form.h"
+	"levelEditor.h"
+	"FileMan.h"
+
+1278147461 source:c:\programy\level editor\actual\scriptgroup.cpp
+	"ScriptSystem.h"
+	"FileMan.h"
+
+1292529666 source:c:\programy\level editor\actual\scriptgroupdoor.cpp
+	"ScriptSystem.h"
+	"ScriptGroupDoor.h"
+
+1292525287 source:c:\programy\level editor\actual\scriptmenudoor.cpp
+	"scriptSystem.h"
+	"doorSystem.h"
+
+1286968180 source:c:\programy\level editor\actual\scriptsystem.cpp
+	"ScriptSystem.h"
+	"DoorSystem.h"
+	"map.h"
+	"FileMan.h"
+	"LevelEditor.h"
+
+1286127615 source:c:\programy\level editor\actual\setmapdoor.cpp
+	<string>
+	"Door.h"
+	"SetMapDoor.h"
+	"ScriptSystem.h"
+	"LevelEditor.h"
+
+1286985158 source:c:\programy\level editor\actual\setscriptkinddoor.cpp
+	"ScriptSystem.h"
+	"DoorSystem.h"
+	"SetScriptKindDoor.h"
+
+1269082883 source:c:\programy\level editor\actual\tgaloader.cpp
+	<string.h>
+	<malloc.h>
+	"tga.h"
+
+1120747414 c:\programy\level editor\actual\tga.h
+	<stdio.h>
+	<gl\gl.h>
+	"texture.h"
+
+1292789589 source:c:\programy\level editor\actual\draw.cpp
+	<GL/GL.h>
+	"Engine.h"
+	"Door\DoorSystem.h"
+	"LevelEditor.h"
+	"Utils\FontMan.h"
+	"Map.h"
+
+1148154152 c:\programy\level editor\actual\boolean.h
+
+1292840629 source:c:\programy\level editor\actual\engine.cpp
+	<GL/gl.h>
+	<SDL/SDL.h>
+	<iostream>
+	<sstream>
+	<stdlib.h>
+	"Engine.h"
+	"Map.h"
+	"Door\Doorsystem.h"
+	"LevelEditor.h"
+	"Script\Scriptsystem.h"
+	"Utils\FontMan.h"
+	"Utils\TextureMan.h"
+
+1292784515 source:c:\programy\level editor\actual\main.cpp
+	<stdio.h>
+	"engine.h"
+
+1292325359 source:c:\programy\level editor\actual\texture.cpp
+	"texture.h"
+
+1258749079 source:c:\programy\level editor\actual\oldtiledoor.cpp
+	<string>
+	"Door.h"
+	"map.h"
+	"LevelEditor.h"
+
+1292326765 source:c:\programy\level editor\actual\tiledoor.cpp
+	<string>
+	"Door.h"
+	"map.h"
+	"LevelEditor.h"
+	"FileMan.h"
+	"TileDoor.h"
+	"DoorSystem.h"
+
+1275998298 source:c:\programy\level editor\actual\resource.rc
+
+1286129156 source:c:\programy\level editor\actual\fileman.cpp
+	"FileMan.h"
+
+1278146814 c:\programy\level editor\actual\fileman.h
+	<SDL/SDL.h>
+	<string>
+
+1279719298 c:\programy\level editor\actual\alldoors.h
+	"Door.h"
+	"InformDoor.h"
+	"MainMenuDoor.h"
+	"MenuDoor.h"
+	"NewMapDoor.h"
+	"SetMapDoor.h"
+	"LoadMapDoor.h"
+	"SaveMapDoor.h"
+	"MapDoor.h"
+	"TileDoor.h"
+
+1279718079 c:\programy\level editor\actual\informdoor.h
+	"Door.h"
+
+1279718256 c:\programy\level editor\actual\mainmenudoor.h
+
+1286129585 c:\programy\level editor\actual\menudoor.h
+
+1286129978 c:\programy\level editor\actual\newmapdoor.h
+	"Input.h"
+
+1282394422 c:\programy\level editor\actual\setmapdoor.h
+	"Input.h"
+
+1292357900 c:\programy\level editor\actual\loadmapdoor.h
+	"Input.h"
+
+1282308288 c:\programy\level editor\actual\savemapdoor.h
+	"Input.h"
+
+1286127329 c:\programy\level editor\actual\mapdoor.h
+	"Map.h"
+
+1279719410 c:\programy\level editor\actual\tiledoor.h
+	"Map.h"
+	"LevelEditor.h"
+
+1279995482 source:c:\programy\level editor\actual\font.cpp
+	"Font.h"
+	"FontMan.h"
+
+1279875236 c:\programy\level editor\actual\font.h
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<vector>
+	<string>
+	<ft2build.h>
+	<freetype/freetype.h>
+	<freetype/ftglyph.h>
+	<freetype/ftoutln.h>
+	<freetype/fttrigon.h>
+	<string>
+
+1286129166 source:c:\programy\level editor\actual\fontman.cpp
+	"FontMan.h "
+	<cstring>
+
+1279992308 c:\programy\level editor\actual\fontman.h
+	"Font.h"
+	<map>
+	<stdexcept>
+
+1292529899 c:\programy\level editor\actual\buttongroup.h
+	<string>
+	<vector>
+	"FontMan.h"
+	"Button.h"
+
+1282297324 source:c:\programy\level editor\actual\form.cpp
+	"Form.h"
+
+1292518517 c:\programy\level editor\actual\input.h
+	<string>
+	<iostream>
+	<sstream>
+	"Color.h"
+
+1286129977 source:c:\programy\level editor\actual\mapmanagerdoor.cpp
+	"MapManagerDoor.h"
+
+1283025125 c:\programy\level editor\actual\mapmanagerdoor.h
+	"Door.h"
+	"LevelEditor.h"
+	"ButtonGroup.h"
+
+1286982379 c:\programy\level editor\actual\scriptkind.h
+
+1286982638 c:\programy\level editor\actual\scriptgroup.h
+
+1286982842 c:\programy\level editor\actual\scriptgroupdoor.h
+
+1286984792 c:\programy\level editor\actual\newscriptkinddoor.h
+
+1286985090 c:\programy\level editor\actual\setscriptkinddoor.h
+
+1292524361 c:\programy\level editor\actual\color.h
+	<GL/GL.h>
+
+1292524338 source:c:\programy\level editor\actual\color.cpp
+	"Color.h"
+
+1292531368 source:c:\programy\level editor\actual\door\button.cpp
+	"Button.h"
+	"..\Engine.h"
+	"DoorSystem.h"
+	"..\Utils\FontMan.h"
+	<GL/GL.h>
+
+1292531154 c:\programy\level editor\actual\door\button.h
+	<string>
+	<vector>
+	"..\Utils\Color.h"
+	"..\Form\Form.h"
+	"..\Utils\FontMan.h"
+
+1292842596 c:\programy\level editor\actual\utils\color.h
+	<GL/GL.h>
+
+1292842398 c:\programy\level editor\actual\form\form.h
+	<string>
+	<iostream>
+	<sstream>
+
+1279992308 c:\programy\level editor\actual\utils\fontman.h
+	"Font.h"
+	<map>
+	<stdexcept>
+
+1292842670 c:\programy\level editor\actual\utils\font.h
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<vector>
+	<string>
+	<ft2build.h>
+	<freetype/freetype.h>
+	<freetype/ftglyph.h>
+	<freetype/ftoutln.h>
+	<freetype/fttrigon.h>
+	<string>
+
+1292532605 c:\programy\level editor\actual\door\doorsystem.h
+	"Door.h"
+	"..\Form\Button.h"
+	"InformDoor.h"
+	<vector>
+
+1292842043 c:\programy\level editor\actual\door\door.h
+	"String.h"
+	"..\Form\Button.h"
+	"..\Form\Form.h"
+	"..\Engine.h"
+
+1292325358 c:\programy\level editor\actual\utils\texture.h
+	<stdio.h>
+	<gl\gl.h>
+
+1292842044 c:\programy\level editor\actual\door\informdoor.h
+	"Door.h"
+
+1292521041 source:c:\programy\level editor\actual\door\buttongroup.cpp
+	"ButtonGroup.h"
+
+1292531384 c:\programy\level editor\actual\door\buttongroup.h
+	<string>
+	<vector>
+	"..\Utils\FontMan.h"
+	"Button.h"
+
+1292531401 source:c:\programy\level editor\actual\door\door.cpp
+	"Door.h"
+	"DoorSystem.h"
+	"..\Engine.h"
+	<GL/GL.h>
+	"..\Utils\FileMan.h"
+	"..\Utils\FontMan.h"
+
+1278146814 c:\programy\level editor\actual\utils\fileman.h
+	<SDL/SDL.h>
+	<string>
+
+1292841380 source:c:\programy\level editor\actual\door\doorsystem.cpp
+	"DoorSystem.h"
+	"..\Script\ScriptSystem.h"
+	"..\Script\ScriptGroupDoor.h"
+	"..\Script\NewScriptKindDoor.h"
+	"..\Script\SetScriptKindDoor.h"
+	"..\Engine.h"
+	"..\Utils\FontMan.h"
+	"..\Utils\FileMan.h"
+	"AllDoors.h"
+
+1292840497 c:\programy\level editor\actual\script\scriptsystem.h
+	"Script.h"
+	"..\Door\Door.h"
+	"..\Form\ButtonGroup.h"
+	"..\Form\Form.h"
+	"ScriptKind.h"
+	"ScriptGroup.h"
+	<vector>
+
+1292531480 c:\programy\level editor\actual\script\script.h
+	"..\Door\Door.h"
+	"..\Form\Form.h"
+	"..\Form\Input.h"
+	"..\Form\ButtonGroup.h"
+	"..\Map.h"
+	<vector>
+
+1292842467 c:\programy\level editor\actual\form\input.h
+	<string>
+	<iostream>
+	<sstream>
+	"..\Utils\Color.h"
+
+1292842329 c:\programy\level editor\actual\form\buttongroup.h
+	<string>
+	<vector>
+	"..\Utils\FontMan.h"
+	"Button.h"
+
+1292842044 c:\programy\level editor\actual\form\button.h
+	<string>
+	<vector>
+	"..\Utils\Color.h"
+	"Form.h"
+	"..\Utils\FontMan.h"
+
+1286982379 c:\programy\level editor\actual\script\scriptkind.h
+
+1286982638 c:\programy\level editor\actual\script\scriptgroup.h
+
+1286982842 c:\programy\level editor\actual\script\scriptgroupdoor.h
+
+1286984792 c:\programy\level editor\actual\script\newscriptkinddoor.h
+
+1286985090 c:\programy\level editor\actual\script\setscriptkinddoor.h
+
+1279719298 c:\programy\level editor\actual\door\alldoors.h
+	"Door.h"
+	"InformDoor.h"
+	"MainMenuDoor.h"
+	"MenuDoor.h"
+	"NewMapDoor.h"
+	"SetMapDoor.h"
+	"LoadMapDoor.h"
+	"SaveMapDoor.h"
+	"MapDoor.h"
+	"TileDoor.h"
+
+1292842044 c:\programy\level editor\actual\door\mainmenudoor.h
+	"..\Utils\TextureLoader.h"
+
+1292842044 c:\programy\level editor\actual\door\menudoor.h
+
+1292842044 c:\programy\level editor\actual\door\newmapdoor.h
+	"..\Form\Input.h"
+
+1292842044 c:\programy\level editor\actual\door\setmapdoor.h
+	"..\Form\Input.h"
+
+1292842044 c:\programy\level editor\actual\door\loadmapdoor.h
+	"..\Form\Input.h"
+
+1292842044 c:\programy\level editor\actual\door\savemapdoor.h
+	"..\Form\Input.h"
+
+1292842044 c:\programy\level editor\actual\door\mapdoor.h
+	"..\Map.h"
+
+1292842044 c:\programy\level editor\actual\door\tiledoor.h
+	"..\Map.h"
+	"..\LevelEditor.h"
+
+1292531733 source:c:\programy\level editor\actual\door\informdoor.cpp
+	"InformDoor.h"
+	"..\Utils\FileMan.h"
+	"..\Utils\FontMan.h"
+	<string.h>
+
+1292840629 source:c:\programy\level editor\actual\door\loadmapdoor.cpp
+	<string>
+	<windows.h>
+	"door.h"
+	"DoorSystem.h"
+	"LoadMapDoor.h"
+	"..\Script\ScriptSystem.h"
+	"..\LevelEditor.h"
+
+1293017504 source:c:\programy\level editor\actual\door\mainmenudoor.cpp
+	<string>
+	"..\Utils\TextureMan.h"
+	"Door.h"
+	"..\Map.h"
+	"MainMenuDoor.h"
+	"DoorSystem.h"
+	"..\Script\ScriptSystem.h"
+	"..\LevelEditor.h"
+
+1292532645 c:\programy\level editor\actual\door\mapmanagerdoor.h
+	"Door.h"
+	"..\LevelEditor.h"
+	"..\Form\ButtonGroup.h"
+
+1292789653 source:c:\programy\level editor\actual\door\mapdoor.cpp
+	<string>
+	"Door.h"
+	"DoorSystem.h"
+	"MapDoor.h"
+	"..\Map.h"
+	"..\Leveleditor.h"
+	"..\Utils\FileMan.h"
+
+1292789579 source:c:\programy\level editor\actual\door\menudoor.cpp
+	<string>
+	"Door.h"
+	"MenuDoor.h"
+	"DoorSystem.h"
+	"..\Map.h"
+
+1292840629 source:c:\programy\level editor\actual\door\newmapdoor.cpp
+	<string>
+	"door.h"
+	"NewMapDoor.h"
+	"DoorSystem.h"
+	"..\Script\ScriptSystem.h"
+	"..\Map.h"
+	"..\LevelEditor.h"
+
+1292840629 source:c:\programy\level editor\actual\door\savemapdoor.cpp
+	<string>
+	"Door.h"
+	"SaveMapDoor.h"
+	"..\Script\ScriptSystem.h"
+	"..\Map.h"
+	"..\LevelEditor.h"
+
+1292532225 source:c:\programy\level editor\actual\door\setmapdoor.cpp
+	<string>
+	"Door.h"
+	"SetMapDoor.h"
+	"..\Script\ScriptSystem.h"
+	"..\LevelEditor.h"
+
+1292789041 source:c:\programy\level editor\actual\door\tiledoor.cpp
+	<string>
+	"Door.h"
+	"..\Map.h"
+	"..\LevelEditor.h"
+	"..\Utils\FileMan.h"
+	"TileDoor.h"
+	"DoorSystem.h"
+
+1292842275 source:c:\programy\level editor\actual\form\button.cpp
+	"Button.h"
+	"..\Engine.h"
+	"..\Door\DoorSystem.h"
+	"..\Utils\FontMan.h"
+	<GL/GL.h>
+
+1292521041 source:c:\programy\level editor\actual\form\buttongroup.cpp
+	"ButtonGroup.h"
+
+1282297324 source:c:\programy\level editor\actual\form\form.cpp
+	"Form.h"
+
+1292532356 source:c:\programy\level editor\actual\form\input.cpp
+	"Form.h"
+	"Input.h"
+	"..\Engine.h"
+	"..\Door\DoorSystem.h"
+	<GL/GL.h>
+	"..\Utils\FontMan.h"
+
+1282302762 source:c:\programy\level editor\actual\form\label.cpp
+	"Form.h"
+	"Input.h"
+
+1292840629 source:c:\programy\level editor\actual\script\newscriptkinddoor.cpp
+	"ScriptSystem.h"
+	"NewScriptKindDoor.h"
+
+1292873904 source:c:\programy\level editor\actual\script\script.cpp
+	"Script.h"
+	"ScriptSystem.h"
+	"..\Form\Form.h"
+	"..\LevelEditor.h"
+	"..\Utils\FileMan.h"
+
+1292532418 source:c:\programy\level editor\actual\script\scriptgroup.cpp
+	"ScriptSystem.h"
+	"..\Utils\FileMan.h"
+
+1292840629 source:c:\programy\level editor\actual\script\scriptgroupdoor.cpp
+	"ScriptSystem.h"
+	"ScriptGroupDoor.h"
+
+1292840629 source:c:\programy\level editor\actual\script\scriptmenudoor.cpp
+	"ScriptSystem.h"
+	"..\Door\DoorSystem.h"
+
+1292840629 source:c:\programy\level editor\actual\script\scriptsystem.cpp
+	"ScriptSystem.h"
+	"..\Door\DoorSystem.h"
+	"..\Map.h"
+	"..\Utils\FileMan.h"
+	"..\LevelEditor.h"
+
+1292840629 source:c:\programy\level editor\actual\script\setscriptkinddoor.cpp
+	"ScriptSystem.h"
+	"..\Door\DoorSystem.h"
+	"SetScriptKindDoor.h"
+
+1292842979 source:c:\programy\level editor\actual\utils\color.cpp
+	"Color.h"
+
+1286129156 source:c:\programy\level editor\actual\utils\fileman.cpp
+	"FileMan.h"
+
+1279995482 source:c:\programy\level editor\actual\utils\font.cpp
+	"Font.h"
+	"FontMan.h"
+
+1286129166 source:c:\programy\level editor\actual\utils\fontman.cpp
+	"FontMan.h "
+	<cstring>
+
+1269082883 source:c:\programy\level editor\actual\utils\tgaloader.cpp
+	<string.h>
+	<malloc.h>
+	"tga.h"
+
+1120747414 c:\programy\level editor\actual\utils\tga.h
+	<stdio.h>
+	<gl\gl.h>
+	"texture.h"
+
+1292789345 source:c:\programy\level editor\actual\utils\texture.cpp
+	"texture.h"
+
+1293016490 source:c:\programy\level editor\actual\utils\textureman.cpp
+	"TextureMan.h"
+	"TexturePNG.h"
+	"TextureTGA.h"
+	<stdlib.h>
+	<iterator>
+
+1292940444 c:\programy\level editor\actual\utils\textureman.h
+	<Gl\Gl.h>
+	<string>
+	<map>
+	<vector>
+	"TextureLoader.h"
+
+1292776246 source:c:\programy\level editor\actual\utils\textureloader.cpp
+
+1292940083 c:\programy\level editor\actual\utils\textureloader.h
+	<string>
+	<GL\GL.h>
+
+1292779477 source:c:\programy\level editor\actual\utils\texturetga.cpp
+	<string.h>
+	<malloc.h>
+	"TextureTGA.h"
+
+1292779468 c:\programy\level editor\actual\utils\texturetga.h
+	<stdio.h>
+	<gl\gl.h>
+	"TextureLoader.h"
+
+1293014742 source:c:\programy\level editor\actual\utils\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fstream>
+
+1293014755 c:\programy\level editor\actual\utils\lodepng.h
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1293038299 source:c:\programy\level editor\actual\utils\texturepng.cpp
+	"TexturePNG.h"
+	"LodePNG.h"
+
+1293016513 c:\programy\level editor\actual\utils\texturepng.h
+	<stdio.h>
+	<gl\gl.h>
+	"TextureLoader.h"
+
+1309592274 source:c:\_projekty\level editor\actual\door\door.cpp
+	"Door.h"
+	"DoorSystem.h"
+	"..\Engine.h"
+	<GL/GL.h>
+	"..\Utils\FileMan.h"
+	"..\Utils\FontMan.h"
+
+1309592142 c:\_projekty\level editor\actual\door\door.h
+	"String.h"
+	"..\Form\Button.h"
+	"..\Form\Form.h"
+	"..\Engine.h"
+
+1292845644 c:\_projekty\level editor\actual\form\button.h
+	<string>
+	<vector>
+	"..\Utils\Color.h"
+	"Form.h"
+	"..\Utils\FontMan.h"
+
+1293295309 c:\_projekty\level editor\actual\utils\color.h
+	<GL/GL.h>
+
+1293291818 c:\_projekty\level editor\actual\form\form.h
+	<string>
+	<iostream>
+	<sstream>
+
+1306611914 c:\_projekty\level editor\actual\utils\fontman.h
+	"Font.h"
+	<map>
+	<stdexcept>
+
+1293294765 c:\_projekty\level editor\actual\utils\font.h
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<vector>
+	<string>
+	<ft2build.h>
+	<freetype/freetype.h>
+	<freetype/ftglyph.h>
+	<freetype/ftoutln.h>
+	<freetype/fttrigon.h>
+	<string>
+
+1282398946 c:\_projekty\level editor\actual\engine.h
+	<SDL/SDL.h>
+	<string>
+
+1293289760 c:\_projekty\level editor\actual\door\doorsystem.h
+	"Door.h"
+	"..\Form\Button.h"
+	"InformDoor.h"
+	<vector>
+
+1292845644 c:\_projekty\level editor\actual\door\informdoor.h
+	"Door.h"
+
+1293290200 c:\_projekty\level editor\actual\utils\fileman.h
+	<SDL/SDL.h>
+	<string>
+
+1309592274 source:c:\_projekty\level editor\actual\door\doorsystem.cpp
+	"DoorSystem.h"
+	"..\Script\ScriptSystem.h"
+	"..\Script\ScriptDoor.h"
+	"..\Script\ScriptGroupDoor.h"
+	"..\Script\NewScriptKindDoor.h"
+	"..\Script\SetScriptKindDoor.h"
+	"..\Engine.h"
+	"..\Utils\FontMan.h"
+	"..\Utils\FileMan.h"
+	"AllDoors.h"
+
+1306443453 c:\_projekty\level editor\actual\script\scriptsystem.h
+	"Script.h"
+	"..\Door\Door.h"
+	"..\Form\ButtonGroup.h"
+	"..\Form\Form.h"
+	"ScriptKind.h"
+	"ScriptGroup.h"
+	<vector>
+
+1306516364 c:\_projekty\level editor\actual\script\script.h
+	"..\Door\Door.h"
+	"..\Form\Form.h"
+	"..\Form\Input.h"
+	"..\Form\ButtonGroup.h"
+	"..\Utils\XML\XMLNode.h"
+	"..\Map.h"
+	<vector>
+
+1293293548 c:\_projekty\level editor\actual\form\input.h
+	<string>
+	<iostream>
+	<sstream>
+	"..\Utils\Color.h"
+
+1293289928 c:\_projekty\level editor\actual\form\buttongroup.h
+	<string>
+	<vector>
+	"..\Utils\FontMan.h"
+	"Button.h"
+
+1309633085 c:\_projekty\level editor\actual\map.h
+	"Utils\TextureLoader.h"
+	"TilePattern.h"
+	<string>
+
+1293289802 c:\_projekty\level editor\actual\utils\textureloader.h
+	<string>
+	<GL\GL.h>
+
+1286985979 c:\_projekty\level editor\actual\script\scriptkind.h
+
+1286986238 c:\_projekty\level editor\actual\script\scriptgroup.h
+
+1286986442 c:\_projekty\level editor\actual\script\scriptgroupdoor.h
+
+1286988392 c:\_projekty\level editor\actual\script\newscriptkinddoor.h
+
+1286988690 c:\_projekty\level editor\actual\script\setscriptkinddoor.h
+
+1307899980 c:\_projekty\level editor\actual\door\alldoors.h
+	"Door.h"
+	"InformDoor.h"
+	"MainMenuDoor.h"
+	"MenuDoor.h"
+	"NewMapDoor.h"
+	"SetMapDoor.h"
+	"SetEditorDoor.h"
+	"LoadMapDoor.h"
+	"SaveMapDoor.h"
+	"MapDoor.h"
+	"TileDoor.h"
+	"PatternDoor.h"
+
+1307649008 c:\_projekty\level editor\actual\door\mainmenudoor.h
+	"..\Utils\TextureLoader.h"
+
+1292845644 c:\_projekty\level editor\actual\door\menudoor.h
+
+1292845644 c:\_projekty\level editor\actual\door\newmapdoor.h
+	"..\Form\Input.h"
+
+1307729610 c:\_projekty\level editor\actual\door\setmapdoor.h
+	"..\Form\Input.h"
+
+1292845644 c:\_projekty\level editor\actual\door\loadmapdoor.h
+	"..\Form\Input.h"
+
+1292845644 c:\_projekty\level editor\actual\door\savemapdoor.h
+	"..\Form\Input.h"
+
+1308597418 c:\_projekty\level editor\actual\door\mapdoor.h
+	"..\Map.h"
+
+1307036621 c:\_projekty\level editor\actual\door\tiledoor.h
+	"..\Map.h"
+	"..\LevelEditor.h"
+
+1309627119 c:\_projekty\level editor\actual\leveleditor.h
+	"Map.h"
+	"TilePattern.h"
+	"GameSetup.h"
+	<map>
+	<vector>
+
+1293291214 source:c:\_projekty\level editor\actual\door\informdoor.cpp
+	"InformDoor.h"
+	"..\Utils\FileMan.h"
+	"..\Utils\FontMan.h"
+	<string.h>
+
+1292844229 source:c:\_projekty\level editor\actual\door\loadmapdoor.cpp
+	<string>
+	<windows.h>
+	"door.h"
+	"DoorSystem.h"
+	"LoadMapDoor.h"
+	"..\Script\ScriptSystem.h"
+	"..\LevelEditor.h"
+
+1307817892 source:c:\_projekty\level editor\actual\door\mainmenudoor.cpp
+	<string>
+	"..\Utils\TextureMan.h"
+	"..\Utils\Painter.h"
+	"Door.h"
+	"..\Map.h"
+	"MainMenuDoor.h"
+	"DoorSystem.h"
+	"..\Script\ScriptSystem.h"
+	"..\LevelEditor.h"
+
+1293227810 c:\_projekty\level editor\actual\utils\textureman.h
+	<Gl\Gl.h>
+	<string>
+	<map>
+	<vector>
+	"TextureLoader.h"
+
+1309591731 source:c:\_projekty\level editor\actual\door\mapdoor.cpp
+	<string>
+	"Door.h"
+	"DoorSystem.h"
+	"MapDoor.h"
+	"..\Map.h"
+	"..\Leveleditor.h"
+	"..\Utils\FileMan.h"
+
+1307899757 source:c:\_projekty\level editor\actual\door\menudoor.cpp
+	<string>
+	"Door.h"
+	"MenuDoor.h"
+	"DoorSystem.h"
+	"..\Map.h"
+
+1292844229 source:c:\_projekty\level editor\actual\door\newmapdoor.cpp
+	<string>
+	"door.h"
+	"NewMapDoor.h"
+	"DoorSystem.h"
+	"..\Script\ScriptSystem.h"
+	"..\Map.h"
+	"..\LevelEditor.h"
+
+1309626646 source:c:\_projekty\level editor\actual\door\savemapdoor.cpp
+	<string>
+	"Door.h"
+	"SaveMapDoor.h"
+	"..\Script\ScriptSystem.h"
+	"..\Map.h"
+	"..\LevelEditor.h"
+
+1307729554 source:c:\_projekty\level editor\actual\door\setmapdoor.cpp
+	<string>
+	"Door.h"
+	"SetMapDoor.h"
+	"..\Script\ScriptSystem.h"
+	"..\LevelEditor.h"
+
+1307901581 source:c:\_projekty\level editor\actual\door\tiledoor.cpp
+	<string>
+	"Door.h"
+	"..\Map.h"
+	"..\LevelEditor.h"
+	"..\Utils\FileMan.h"
+	"..\Utils\Painter.h"
+	"TileDoor.h"
+	"DoorSystem.h"
+
+1292793189 source:c:\_projekty\level editor\actual\draw.cpp
+	<GL/GL.h>
+	"Engine.h"
+	"Door\DoorSystem.h"
+	"LevelEditor.h"
+	"Utils\FontMan.h"
+	"Map.h"
+
+1292844229 source:c:\_projekty\level editor\actual\engine.cpp
+	<GL/gl.h>
+	<SDL/SDL.h>
+	<iostream>
+	<sstream>
+	<stdlib.h>
+	"Engine.h"
+	"Map.h"
+	"Door\Doorsystem.h"
+	"LevelEditor.h"
+	"Script\Scriptsystem.h"
+	"Utils\FontMan.h"
+	"Utils\TextureMan.h"
+
+1293295363 source:c:\_projekty\level editor\actual\form\button.cpp
+	"Button.h"
+	"..\Engine.h"
+	"..\Door\DoorSystem.h"
+	"..\Utils\FontMan.h"
+	<GL/GL.h>
+
+1293293377 source:c:\_projekty\level editor\actual\form\buttongroup.cpp
+	"ButtonGroup.h"
+
+1282300924 source:c:\_projekty\level editor\actual\form\form.cpp
+	"Form.h"
+
+1293293689 source:c:\_projekty\level editor\actual\form\input.cpp
+	"Form.h"
+	"Input.h"
+	"..\Engine.h"
+	"..\Door\DoorSystem.h"
+	<GL/GL.h>
+	"..\Utils\FontMan.h"
+
+1282306362 source:c:\_projekty\level editor\actual\form\label.cpp
+	"Form.h"
+	"Input.h"
+
+1309627271 source:c:\_projekty\level editor\actual\leveleditor.cpp
+	"LevelEditor.h"
+	"engine.h"
+	"map.h"
+
+1292788115 source:c:\_projekty\level editor\actual\main.cpp
+	<stdio.h>
+	"engine.h"
+
+1309627148 source:c:\_projekty\level editor\actual\map.cpp
+	"Map.h"
+	"LevelEditor.h"
+	"Script\ScriptSystem.h"
+	"Utils\TextureMan.h"
+	"Utils\FileMan.h"
+
+1276001898 source:c:\_projekty\level editor\actual\resource.rc
+
+1293294347 source:c:\_projekty\level editor\actual\script\newscriptkinddoor.cpp
+	"ScriptSystem.h"
+	"NewScriptKindDoor.h"
+
+1306610187 source:c:\_projekty\level editor\actual\script\script.cpp
+	"Script.h"
+	"ScriptSystem.h"
+	"..\Form\Form.h"
+	"..\LevelEditor.h"
+	"..\Utils\FileMan.h"
+
+1292536018 source:c:\_projekty\level editor\actual\script\scriptgroup.cpp
+	"ScriptSystem.h"
+	"..\Utils\FileMan.h"
+
+1293294347 source:c:\_projekty\level editor\actual\script\scriptgroupdoor.cpp
+	"ScriptSystem.h"
+	"ScriptGroupDoor.h"
+
+1293294347 source:c:\_projekty\level editor\actual\script\scriptmenudoor.cpp
+	"ScriptSystem.h"
+	"..\Door\DoorSystem.h"
+
+1306516895 source:c:\_projekty\level editor\actual\script\scriptsystem.cpp
+	"ScriptSystem.h"
+	"..\Door\DoorSystem.h"
+	"..\Map.h"
+	"..\Utils\FileMan.h"
+	"..\LevelEditor.h"
+	"..\Utils\XML\ManXML.h"
+
+1292844229 source:c:\_projekty\level editor\actual\script\setscriptkinddoor.cpp
+	"ScriptSystem.h"
+	"..\Door\DoorSystem.h"
+	"SetScriptKindDoor.h"
+
+1293295386 source:c:\_projekty\level editor\actual\utils\color.cpp
+	"Color.h"
+
+1293290287 source:c:\_projekty\level editor\actual\utils\fileman.cpp
+	"FileMan.h"
+
+1293294719 source:c:\_projekty\level editor\actual\utils\font.cpp
+	"Font.h"
+	"FontMan.h"
+
+1293294832 source:c:\_projekty\level editor\actual\utils\fontman.cpp
+	"FontMan.h "
+	<cstring>
+
+1292776246 source:c:\_projekty\level editor\actual\utils\textureloader.cpp
+
+1306610975 source:c:\_projekty\level editor\actual\utils\textureman.cpp
+	"TextureMan.h"
+	"TexturePNG.h"
+	"TextureTGA.h"
+	"TextureBMP.h"
+	<stdlib.h>
+	<iterator>
+
+1293020113 c:\_projekty\level editor\actual\utils\texturepng.h
+	<stdio.h>
+	<gl\gl.h>
+	"TextureLoader.h"
+
+1292783068 c:\_projekty\level editor\actual\utils\texturetga.h
+	<stdio.h>
+	<gl\gl.h>
+	"TextureLoader.h"
+
+1293228861 source:c:\_projekty\level editor\actual\utils\texturepng.cpp
+	"TexturePNG.h"
+	"AlienCode\LodePNG.h"
+
+1292783077 source:c:\_projekty\level editor\actual\utils\texturetga.cpp
+	<string.h>
+	<malloc.h>
+	"TextureTGA.h"
+
+1307907292 source:c:\_projekty\level editor\actual\utils\aliencode\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fstream>
+
+1293018355 c:\_projekty\level editor\actual\utils\aliencode\lodepng.h
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1293224680 source:c:\_projekty\level editor\actual\utils\texturebmp.cpp
+	"TextureBMP.h"
+	"AlienCode\KalyttaBMP.h"
+	<gl\gl.h>
+
+1293222207 c:\_projekty\level editor\actual\utils\texturebmp.h
+	<stdio.h>
+	<gl\gl.h>
+	"TextureLoader.h"
+
+1293294005 c:\_projekty\level editor\actual\utils\aliencode\kalyttabmp.h
+	<cstring>
+
+1306612915 source:c:\_projekty\level editor\actual\utils\xml\manxml.cpp
+	"ManXML.h"
+	<fstream>
+	<iostream>
+
+1306440376 c:\_projekty\level editor\actual\utils\xml\manxml.h
+	<string>
+	"XMLNode.h"
+
+1306613561 source:c:\_projekty\level editor\actual\utils\xml\xmlnode.cpp
+	"XMLNode.h"
+
+1306529888 c:\_projekty\level editor\actual\utils\xml\xmlnode.h
+	<string>
+	<fstream>
+	<iostream>
+	<vector>
+	<map>
+
+1306443119 c:\_projekty\level editor\actual\script\scriptdoor.h
+	"../Door/Door.h"
+	"..\Form\Form.h"
+	"..\Form\Input.h"
+	"..\Form\ButtonGroup.h"
+
+1306443161 source:c:\_projekty\level editor\actual\script\scriptdoor.cpp
+	"ScriptDoor.h"
+	"ScriptSystem.h"
+	"..\LevelEditor.h"
+	"..\Map.h"
+
+1307905886 c:\_projekty\level editor\actual\tilepattern.h
+
+1307084738 source:c:\_projekty\level editor\actual\tilepattern.cpp
+	<cstddef>
+	<stdio.h>
+	"TilePattern.h"
+	"LevelEditor.h"
+
+1307901188 source:c:\_projekty\level editor\actual\door\seteditordoor.cpp
+	<string>
+	"Door.h"
+	"SetEditorDoor.h"
+	"..\Script\ScriptSystem.h"
+	"..\LevelEditor.h"
+
+1307729659 c:\_projekty\level editor\actual\door\seteditordoor.h
+	"..\Form\Input.h"
+
+1308595007 source:c:\_projekty\level editor\actual\utils\painter.cpp
+	<stdlib.h>
+	"Painter.h"
+
+1308594687 c:\_projekty\level editor\actual\utils\painter.h
+	"TextureLoader.h"
+	"Color.h"
+
+1309590758 source:c:\_projekty\level editor\actual\door\patterndoor.cpp
+	"PatternDoor.h"
+	"DoorSystem.h"
+	"MapDoor.h"
+	"../LevelEditor.h"
+	"../utils/painter.h"
+
+1308597225 c:\_projekty\level editor\actual\door\patterndoor.h
+	"Door.h"
+	"MapDoor.h"
+
+1307905013 c:\_projekty\level editor\actual\gamesetup.h
+	"map.h"
+	<vector>
+
+1309622613 source:c:\_projekty\level editor\actual\gamesetup.cpp
+	"GameSetup.h"
+	"LevelEditor.h"
+	<cstddef>
+

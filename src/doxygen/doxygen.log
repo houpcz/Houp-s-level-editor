@@ -1,0 +1,19 @@
+C:/_Projekty/Level editor/actual/Door/TileDoor.cpp:39: warning: no matching class member found for 
+  C_TileDoor::C_TileDoor(int n_x, int n_y, int n_width, int n_height, string n_title, int n_index, C_Map::E_Layer n_mapLayer)
+Possible candidates:
+  C_TileDoor::C_TileDoor(const C_TileDoor &)
+  C_TileDoor::C_TileDoor(FILE *fr)
+  C_TileDoor::C_TileDoor(int n_x, int n_y, int n_width, int n_height, string n_title, int n_index, C_Map::E_LAYER n_mapLayer)
+
+C:/_Projekty/Level editor/actual/Script/ScriptSystem.cpp:218: warning: no matching class member found for 
+  void C_ScriptKind::AddData(script::E_SCRIPTDATAKIND kind)
+Possible candidates:
+  void C_ScriptKind::AddData(E_SCRIPTDATAKIND kind)
+
+C:/_Projekty/Level editor/actual/Utils/Font.cpp:141: warning: no uniquely matching class member found for 
+  int Font::GetTextWidth(const string *text)
+Possible candidates:
+  int Font::GetTextWidth(const char *text) at line 42 of file C:/_Projekty/Level editor/actual/Utils/Font.h
+  int Font::GetTextWidth(const wchar_t *text) at line 43 of file C:/_Projekty/Level editor/actual/Utils/Font.h
+  int Font::GetTextWidth(const std::string *text) at line 44 of file C:/_Projekty/Level editor/actual/Utils/Font.h
+

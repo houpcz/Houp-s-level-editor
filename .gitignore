@@ -1,0 +1,17 @@
+obj
+bin
+actual/doxygen
+*.user
+*.zip
+*.cachefile
+
+*.cach
+*.exe
+
+*.dll
+*.exe
+*.o
+*.sln
+*.suo
+*.csproj
+*.contentproj
