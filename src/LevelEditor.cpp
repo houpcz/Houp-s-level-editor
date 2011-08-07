@@ -333,6 +333,7 @@ void C_LevelEditor::Load()
         SetMapBGCB(blue);
         SetMapBGCG(green);
         SetMapBGCR(red);
+        SetGameName("Atlantis"); // TODO atlantis
     } else {
         fprintf(stderr, "Init soubor neexistuje.");
     }
@@ -348,6 +349,12 @@ string C_LevelEditor::GetMapSrc(string name)
     src += ".lev";
 
     return src;
+}
+
+void C_LevelEditor::SetGameName(string name)
+{
+    rename(gameSetup->GetName().c_str(), name.c_str());
+    gameSetup->SetName(name);
 }
 
 void C_LevelEditor::LoadMap(string name)

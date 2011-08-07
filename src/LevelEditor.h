@@ -79,7 +79,7 @@ class C_LevelEditor
         void SetMapBGCR(int red) {gameSetup->SetMapBGCR(red);};
         void SetMapBGCG(int green) {gameSetup->SetMapBGCG(green);};
         void SetMapBGCB(int blue) {gameSetup->SetMapBGCB(blue);};
-        void SetGameName(string name) {gameSetup->SetName(name);};
+        void SetGameName(string name);
         C_Map * GetPattern(int id) {return gameSetup->GetPattern(id);};
         int GetPatternSize() { return gameSetup->GetPatternCount();};
 

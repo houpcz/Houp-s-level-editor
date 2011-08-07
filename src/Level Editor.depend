@@ -1814,9 +1814,10 @@
 1292845644 c:\_projekty\hle\src\door\informdoor.h
 	"Door.h"
 
-1293290200 c:\_projekty\hle\src\utils\fileman.h
+1312712408 c:\_projekty\hle\src\utils\fileman.h
 	<SDL/SDL.h>
 	<string>
+	<vector>
 
 1309592274 source:c:\_projekty\hle\src\door\doorsystem.cpp
 	"DoorSystem.h"
@@ -1908,7 +1909,7 @@
 	"TileDoor.h"
 	"PatternDoor.h"
 
-1307649008 c:\_projekty\hle\src\door\mainmenudoor.h
+1312716578 c:\_projekty\hle\src\door\mainmenudoor.h
 	"..\Utils\TextureLoader.h"
 
 1292845644 c:\_projekty\hle\src\door\menudoor.h
@@ -1935,14 +1936,14 @@
 	"..\Map.h"
 	"..\LevelEditor.h"
 
-1312659635 c:\_projekty\hle\src\leveleditor.h
+1312659966 c:\_projekty\hle\src\leveleditor.h
 	"Map.h"
 	"TilePattern.h"
 	"GameSetup.h"
 	<map>
 	<vector>
 
-1312659628 c:\_projekty\hle\src\gamesetup.h
+1312660305 c:\_projekty\hle\src\gamesetup.h
 	"map.h"
 	<vector>
 
@@ -1956,16 +1957,16 @@
 	"..\Utils\FontMan.h"
 	<string.h>
 
-1312657423 source:c:\_projekty\hle\src\door\loadmapdoor.cpp
+1312709628 source:c:\_projekty\hle\src\door\loadmapdoor.cpp
 	<string>
-	<windows.h>
 	"door.h"
 	"DoorSystem.h"
 	"LoadMapDoor.h"
 	"..\Script\ScriptSystem.h"
 	"..\LevelEditor.h"
+	"..\Utils\FileMan.h"
 
-1312657071 source:c:\_projekty\hle\src\door\mainmenudoor.cpp
+1312716786 source:c:\_projekty\hle\src\door\mainmenudoor.cpp
 	<string>
 	"..\Utils\TextureMan.h"
 	"..\Utils\Painter.h"
@@ -2027,7 +2028,7 @@
 	"..\Map.h"
 	"..\LevelEditor.h"
 
-1312659539 source:c:\_projekty\hle\src\door\seteditordoor.cpp
+1312660679 source:c:\_projekty\hle\src\door\seteditordoor.cpp
 	<string>
 	"Door.h"
 	"SetEditorDoor.h"
@@ -2103,7 +2104,7 @@
 	"LevelEditor.h"
 	<cstddef>
 
-1312657575 source:c:\_projekty\hle\src\leveleditor.cpp
+1312660471 source:c:\_projekty\hle\src\leveleditor.cpp
 	"LevelEditor.h"
 	"engine.h"
 	"map.h"
@@ -2192,8 +2193,9 @@
 1293295386 source:c:\_projekty\hle\src\utils\color.cpp
 	"Color.h"
 
-1293290287 source:c:\_projekty\hle\src\utils\fileman.cpp
+1312712455 source:c:\_projekty\hle\src\utils\fileman.cpp
 	"FileMan.h"
+	<windows.h>
 
 1293294719 source:c:\_projekty\hle\src\utils\font.cpp
 	"Font.h"

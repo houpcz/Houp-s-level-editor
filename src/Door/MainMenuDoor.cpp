@@ -22,7 +22,8 @@ void C_MainMenuDoor::FirstTime()
     closeable = false;
     minimalizeable = false;
 
-    width = 224;
+    width = 196;
+    height = 64;
 }
 
 C_MainMenuDoor::C_MainMenuDoor(int n_x, int n_y, int n_width, int n_height, string n_title)
@@ -48,36 +49,41 @@ void C_MainMenuDoor::DoorActionDown(int button)
     int tempX = interMouseX / 32;
     int tempY = interMouseY / 32;
 
-    if(tempY == 0 && button == LEFTBUTTON)
+    if(button == LEFTBUTTON &&
+       GetIsButtonActive(tempX, tempY))
     {
-        if(C_LevelEditor::Inst()->GetMap() == NULL)
+        switch(tempY)
         {
-            if(tempX > 2)
-                return;
-        }
-        switch(tempX)
-        {
-            case NEW_MAP :
-                C_DoorSystem::Inst()->OpenNewDoor(D_NEW_MAP);
-                break;
-            case SAVE_MAP :
-                C_DoorSystem::Inst()->OpenNewDoor(D_SAVE_MAP);
-                break;
-            case OPEN_MAP :
-                C_DoorSystem::Inst()->OpenNewDoor(D_LOAD_MAP);
-                break;
-            case UNDO_MAP :
-                C_LevelEditor::Inst()->BackOutBack();
-                break;
-            case REDO_MAP :
-                C_LevelEditor::Inst()->BackOutNext();
-                break;
-            case SETUP_MAP :
-                C_DoorSystem::Inst()->OpenNewDoor(D_SET_MAP);
-                break;
-            case SETUP_EDITOR :
-                C_DoorSystem::Inst()->OpenNewDoor(D_SET_EDITOR);
-                break;
+        case ROW_MAP :
+            switch(tempX)
+            {
+                case NEW_MAP :
+                    C_DoorSystem::Inst()->OpenNewDoor(D_NEW_MAP);
+                    break;
+                case SAVE_MAP :
+                    C_DoorSystem::Inst()->OpenNewDoor(D_SAVE_MAP);
+                    break;
+                case OPEN_MAP :
+                    C_DoorSystem::Inst()->OpenNewDoor(D_LOAD_MAP);
+                    break;
+                case UNDO_MAP :
+                    C_LevelEditor::Inst()->BackOutBack();
+                    break;
+                case REDO_MAP :
+                    C_LevelEditor::Inst()->BackOutNext();
+                    break;
+                case SETUP_MAP :
+                    C_DoorSystem::Inst()->OpenNewDoor(D_SET_MAP);
+                    break;            }
+            break;
+        case ROW_PROJECT :
+            switch(tempX)
+            {
+                case SETUP_PROJECT :
+                    C_DoorSystem::Inst()->OpenNewDoor(D_SET_EDITOR);
+                    break;
+            }
+            break;
         }
     }
 }
@@ -87,20 +93,49 @@ void C_MainMenuDoor::DoorActionIn()
     int tempX = interMouseX / 32;
     int tempY = interMouseY / 32;
 
-    if(tempY == 0)
+    string activeString = "";
+    if(!GetIsButtonActive(tempX, tempY))
     {
-        switch(tempX)
-        {
-            case SETUP_EDITOR : C_DoorSystem::Inst()->OpenNewHelp("Set editor"); break;
-            case NEW_MAP : C_DoorSystem::Inst()->OpenNewHelp("New map"); break;
-            case OPEN_MAP : C_DoorSystem::Inst()->OpenNewHelp("Open map"); break;
-            case SETUP_MAP : C_DoorSystem::Inst()->OpenNewHelp("Setup map"); break;
-            case SAVE_MAP : C_DoorSystem::Inst()->OpenNewHelp("Save map"); break;
-            case UNDO_MAP : C_DoorSystem::Inst()->OpenNewHelp("Undo map"); break;
-            case REDO_MAP : C_DoorSystem::Inst()->OpenNewHelp("Redo map"); break;
-
-        }
+        activeString = " - not active";
     }
+
+    switch(tempY)
+    {
+        case ROW_MAP :
+            switch(tempX)
+            {
+                case NEW_MAP : C_DoorSystem::Inst()->OpenNewHelp("New map" + activeString); break;
+                case OPEN_MAP : C_DoorSystem::Inst()->OpenNewHelp("Open map" + activeString); break;
+                case SETUP_MAP : C_DoorSystem::Inst()->OpenNewHelp("Setup map" + activeString); break;
+                case SAVE_MAP : C_DoorSystem::Inst()->OpenNewHelp("Save map" + activeString); break;
+                case UNDO_MAP : C_DoorSystem::Inst()->OpenNewHelp("Undo map" + activeString); break;
+                case REDO_MAP : C_DoorSystem::Inst()->OpenNewHelp("Redo map" + activeString); break;
+            }
+            break;
+        case ROW_PROJECT :
+            switch(tempX)
+            {
+                case SETUP_PROJECT : C_DoorSystem::Inst()->OpenNewHelp("Setup project" + activeString); break;
+            }
+            break;
+    }
+}
+
+bool C_MainMenuDoor::GetIsButtonActive(int x, int y)
+{
+     switch(y)
+     {
+         case ROW_PROJECT :
+            return true;
+
+         case ROW_MAP :
+            if(C_LevelEditor::Inst()->GetMap() == NULL)
+            {
+                if(x > 1)
+                    return false;
+            } else
+                return true;
+     }
 }
 
 void C_MainMenuDoor::DoorEverTime()

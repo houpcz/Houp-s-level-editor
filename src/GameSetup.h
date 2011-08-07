@@ -34,7 +34,7 @@ class GameSetup
         void SetMapBGCG(int green) {mapBGColorGreen = green;};
         void SetMapBGCB(int blue) {mapBGColorBlue = blue;};
         void SetName(string n_name) {name = n_name;};
-        string GetName() const { return "Atlantis"; }; // TODO atlantis
+        string GetName() const { return name; }; // TODO atlantis
         int GetPatternCount() const { return pattern.size();};
         C_Map * GetPattern(int id);
 };

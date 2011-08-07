@@ -3,6 +3,7 @@
 
 #include <SDL/SDL.h>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -21,6 +22,17 @@ class FileMan
         bool LoadInteger(int & i, FILE *fr);        /// Loads integer from *fr file, integer is saved to i
         bool SaveDouble(double d, FILE *fw);        /// Saves double to *fw file
         bool LoadDouble(double & d, FILE *fr);      /// Loads double from *fr file, double is saved to d
+
+        /** \brief
+         *  Returns vector of files in target directory.
+         *  It can returns it with sufixes or without them.
+         * \param src string Source of target directory
+         * \param sufix bool Return strings containing sufixes?
+         * \return vector<string>
+         *
+         */
+        vector<string> GetFileList(string src, bool sufix);
+        bool MakeDirectory(string src);
 };
 
 

@@ -68,6 +68,7 @@ void C_SetEditorDoor::FirstTime()
     resizeableHorizontal = false;
     minimalizeable = false;
     isTitle = true;
+    SetDontSave(true);
 }
 
 void C_SetEditorDoor::DoorEverTime()

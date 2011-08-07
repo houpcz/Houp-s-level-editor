@@ -1,12 +1,11 @@
 #include <string>
-#include <windows.h>
 
 #include "door.h"
 #include "DoorSystem.h"
 #include "LoadMapDoor.h"
 #include "..\Script\ScriptSystem.h"
 #include "..\LevelEditor.h"
-
+#include "..\Utils\FileMan.h"
 C_LoadMapDoor::C_LoadMapDoor(FILE * fr)
 {
         Load(fr);
@@ -29,25 +28,17 @@ C_LoadMapDoor::~C_LoadMapDoor()
 
 void C_LoadMapDoor::FirstTime()
 {
-    WIN32_FIND_DATA f;
     char c_str[256];
     sprintf(c_str, "%s/Maps/*.lev", C_LevelEditor::Inst()->GetGameSetup()->GetName().c_str());
-    HANDLE h = FindFirstFile(c_str, &f);
     string allFileNames = "";
     string temp;
-    if(h != INVALID_HANDLE_VALUE)
+
+    fileName = FileMan::Inst()->GetFileList(c_str, false);
+
+    for(int loop1 = 0; loop1 < fileName.size(); loop1++)
     {
-        do
-        {
-            temp = f.cFileName;
-            temp = temp.substr(0, temp.length() - 4);
-            allFileNames += ";" + temp;
-            fileName.push_back(temp);
-        } while(FindNextFile(h, &f));
-    }
-    else
-    {
-        fprintf(stderr, "Error opening directory\n");
+        temp = fileName[loop1];
+        allFileNames += temp + ";";
     }
 
     if(fileName.size() > 0)
