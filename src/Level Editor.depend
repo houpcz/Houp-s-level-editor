@@ -1761,7 +1761,7 @@
 	"..\Utils\FileMan.h"
 	"..\Utils\FontMan.h"
 
-1312722712 c:\_projekty\hle\src\door\door.h
+1312727178 c:\_projekty\hle\src\door\door.h
 	"String.h"
 	"..\Form\Button.h"
 	"..\Form\Form.h"
@@ -1831,7 +1831,7 @@
 	"..\Utils\FileMan.h"
 	"AllDoors.h"
 
-1306443453 c:\_projekty\hle\src\script\scriptsystem.h
+1312727725 c:\_projekty\hle\src\script\scriptsystem.h
 	"Script.h"
 	"..\Door\Door.h"
 	"..\Form\ButtonGroup.h"
@@ -1937,7 +1937,7 @@
 	"..\Map.h"
 	"..\LevelEditor.h"
 
-1312722796 c:\_projekty\hle\src\leveleditor.h
+1312727349 c:\_projekty\hle\src\leveleditor.h
 	"Map.h"
 	"TilePattern.h"
 	"GameSetup.h"
@@ -2061,7 +2061,7 @@
 	"Utils\FontMan.h"
 	"Map.h"
 
-1292844229 source:c:\_projekty\hle\src\engine.cpp
+1312727663 source:c:\_projekty\hle\src\engine.cpp
 	<GL/gl.h>
 	<SDL/SDL.h>
 	<iostream>
@@ -2100,17 +2100,18 @@
 	"Form.h"
 	"Input.h"
 
-1312720958 source:c:\_projekty\hle\src\gamesetup.cpp
+1312726881 source:c:\_projekty\hle\src\gamesetup.cpp
 	"GameSetup.h"
 	"LevelEditor.h"
 	<cstddef>
 	<stdio.h>
 	"Utils/FileMan.h"
 
-1312722961 source:c:\_projekty\hle\src\leveleditor.cpp
+1312727540 source:c:\_projekty\hle\src\leveleditor.cpp
 	"LevelEditor.h"
 	"engine.h"
 	"map.h"
+	"Utils/FileMan.h"
 
 1292788115 source:c:\_projekty\hle\src\main.cpp
 	<stdio.h>
@@ -2154,7 +2155,7 @@
 	"ScriptSystem.h"
 	"..\Door\DoorSystem.h"
 
-1312659053 source:c:\_projekty\hle\src\script\scriptsystem.cpp
+1312727725 source:c:\_projekty\hle\src\script\scriptsystem.cpp
 	"ScriptSystem.h"
 	"..\Door\DoorSystem.h"
 	"..\Map.h"
@@ -2166,7 +2167,7 @@
 	<string>
 	"XMLNode.h"
 
-1292844229 source:c:\_projekty\hle\src\script\setscriptkinddoor.cpp
+1312727725 source:c:\_projekty\hle\src\script\setscriptkinddoor.cpp
 	"ScriptSystem.h"
 	"..\Door\DoorSystem.h"
 	"SetScriptKindDoor.h"
@@ -2270,5 +2271,17 @@
 	"..\Utils\FileMan.h"
 
 1312722684 c:\_projekty\hle\src\door\loadprojectdoor.h
+	"..\Form\Input.h"
+
+1312727285 source:c:\_projekty\hle\src\door\newprojectdoor.cpp
+	<string>
+	"door.h"
+	"NewProjectDoor.h"
+	"DoorSystem.h"
+	"..\Script\ScriptSystem.h"
+	"..\Map.h"
+	"..\LevelEditor.h"
+
+1312727285 c:\_projekty\hle\src\door\newprojectdoor.h
 	"..\Form\Input.h"
 

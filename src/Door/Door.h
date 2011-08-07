@@ -22,6 +22,7 @@ typedef enum E_DoorKind {
     D_SET_MAP,          // dvere pro zmenu velikosti mapy
     D_SET_EDITOR,       /// Setup of map editor
     D_LOAD_PROJECT,     /// Open project file
+    D_NEW_PROJECT,      /// Door for creating new project
     D_NEW_MAP,          // dvere pri otevirani nove mapy
     D_LOAD_MAP,         // nacitam starou mapu
     D_SAVE_MAP,          // ukladam mapu

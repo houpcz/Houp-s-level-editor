@@ -1,6 +1,7 @@
 #include "LevelEditor.h"
 #include "engine.h"
 #include "map.h"
+#include "Utils/FileMan.h"
 
 using namespace std;
 
@@ -324,6 +325,16 @@ void C_LevelEditor::Load()
 void C_LevelEditor::LoadProject(string name)
 {
     gameSetup->Load(name);
+}
+
+void C_LevelEditor::NewProject(string name)
+{
+    if(FileMan::Inst()->MakeDirectory(name))
+    {
+        delete gameSetup;
+        gameSetup = new GameSetup();
+        SetGameName(name);
+    }
 }
 
 string C_LevelEditor::GetMapSrc(string name)

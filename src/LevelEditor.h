@@ -74,6 +74,7 @@ class C_LevelEditor
         S_MAPPOS GetMarkedTile(int iMarkedTile) {return markedTile[iMarkedTile];};
 
         void LoadProject(string name);
+        void NewProject(string name);
         const GameSetup * GetGameSetup() { return gameSetup; };
         void SetTileWidth(int n_tileWidth) { gameSetup->SetTileWidth(n_tileWidth);};
         void SetTileHeight(int n_tileHeight) { gameSetup->SetTileHeight(n_tileHeight);};

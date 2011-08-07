@@ -92,7 +92,6 @@ void App::Init()
 {
     C_LevelEditor::Inst()->Load();
     C_DoorSystem::Inst()->Init();
-    C_ScriptSystem::Inst()->LoadScriptKind();
 }
 
 

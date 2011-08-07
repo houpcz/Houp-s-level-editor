@@ -66,9 +66,8 @@ void GameSetup::Save()
 
 void GameSetup::Load(string projectName)
 {
-    name = projectName;
     char path[256];
-    sprintf(path, "%s/%s.hle", name.c_str(), name.c_str());
+    sprintf(path, "%s/%s.hle", projectName.c_str(), projectName.c_str());
     FILE *fr = fopen(path, "rb");
     if(fr != NULL)
     {
@@ -80,6 +79,7 @@ void GameSetup::Load(string projectName)
         fm->LoadInteger(tileHeight, fr);
         fm->LoadInteger(tileInRow, fr);
         fm->LoadInteger(tileInCol, fr);
+        name = projectName;
     }
     fclose(fr);
 }
