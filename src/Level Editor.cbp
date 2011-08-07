@@ -55,6 +55,8 @@
 		<Unit filename="Door\InformDoor.h" />
 		<Unit filename="Door\LoadMapDoor.cpp" />
 		<Unit filename="Door\LoadMapDoor.h" />
+		<Unit filename="Door\LoadProjectDoor.cpp" />
+		<Unit filename="Door\LoadProjectDoor.h" />
 		<Unit filename="Door\MainMenuDoor.cpp" />
 		<Unit filename="Door\MainMenuDoor.h" />
 		<Unit filename="Door\MapDoor.cpp" />
@@ -63,6 +65,8 @@
 		<Unit filename="Door\MenuDoor.h" />
 		<Unit filename="Door\NewMapDoor.cpp" />
 		<Unit filename="Door\NewMapDoor.h" />
+		<Unit filename="Door\NewProjectDoor.cpp" />
+		<Unit filename="Door\NewProjectDoor.h" />
 		<Unit filename="Door\PatternDoor.cpp" />
 		<Unit filename="Door\PatternDoor.h" />
 		<Unit filename="Door\SaveMapDoor.cpp" />

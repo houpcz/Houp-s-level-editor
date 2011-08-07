@@ -99,6 +99,7 @@ class C_LevelEditor
         C_Map * GetMap() {return map;};
         string GetMapSrc(string name);
         void LoadMap(string name);
+        void SaveMap();
         void NewMap(string name, int nLayers, int width, int height);
 
         void BackOutBack() {map->BackOutBack();};

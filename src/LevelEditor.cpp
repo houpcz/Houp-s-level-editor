@@ -303,7 +303,7 @@ void C_LevelEditor::Save()
     }
     fclose(fw);
 
-    SaveActiveProject();
+    SaveActiveProject(); // TODO should be optional
 }
 
 void C_LevelEditor::Load()
@@ -340,6 +340,8 @@ void C_LevelEditor::LoadProject(string name)
 void C_LevelEditor::SaveActiveProject()
 {
     gameSetup->Save();
+    C_ScriptSystem::Inst()->SaveScriptKind(gameSetup->GetName());
+    SaveMap(); // TODO should be optional
 }
 
 void C_LevelEditor::NewProject(string name)
@@ -376,6 +378,15 @@ void C_LevelEditor::SetGameName(string name)
 {
     rename(gameSetup->GetName().c_str(), name.c_str());
     gameSetup->SetName(name);
+}
+
+void C_LevelEditor::SaveMap()
+{
+    if(map != NULL)
+    {
+        map->Save(GetMapSrc(map->GetName()));
+        C_ScriptSystem::Inst()->SaveScript();
+    }
 }
 
 void C_LevelEditor::LoadMap(string name)

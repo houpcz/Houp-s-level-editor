@@ -116,7 +116,7 @@ void C_TileDoor::DrawContent()
         FontMan::Inst()->SetAnchor(FontMan::ALIGN_TOP);
         FontMan::Inst()->Print("impact12", 6, 6, "Texture tileL%dI%d doesnt exist.", (int) mapLayer, index);
         FontMan::Inst()->SetAnchor(anchor);
-        index = 0;
+        //index = 0;
         return;
     }
 

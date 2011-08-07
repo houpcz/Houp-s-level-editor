@@ -21,8 +21,6 @@ class C_MapDoor : public C_Door
         int iTable;             // kde jsme v sizeTable
         bool showBorder;
 
-        C_Map * map;
-
         C_MapDoor(const C_MapDoor &);
         C_MapDoor & operator=(const C_MapDoor &);
         void DrawFutureTiles(int x1, int y1, int x2, int y2);

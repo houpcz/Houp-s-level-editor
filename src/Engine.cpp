@@ -187,6 +187,7 @@ void App::ProcedeEvent()
             break;
 
         case SDL_QUIT:
+            // TODO ask for saving results
             done = true;
             break;
 
@@ -303,6 +304,7 @@ void App::MainLoop()
 
 void App::Quit()
 {
+  // TODO ask for saving map
   C_LevelEditor::Inst()->Save();
   C_DoorSystem::Inst()->Save();
 

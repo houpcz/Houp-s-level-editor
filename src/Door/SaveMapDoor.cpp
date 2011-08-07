@@ -2,7 +2,6 @@
 
 #include "Door.h"
 #include "SaveMapDoor.h"
-#include "..\Script\ScriptSystem.h"
 #include "..\Map.h"
 #include "..\LevelEditor.h"
 
@@ -52,8 +51,7 @@ void C_SaveMapDoor::DoorActionDown(int button)
         if(bOk->GetIsPushedAndUnpush())
         {
             pMap->SetName(fMapName->GetString());
-            pMap->Save(C_LevelEditor::Inst()->GetMapSrc(fMapName->GetString()));
-            C_ScriptSystem::Inst()->SaveScript();
+            C_LevelEditor::Inst()->SaveMap();
             close = true;
         }
     }
