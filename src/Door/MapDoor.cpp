@@ -12,6 +12,7 @@ C_MapDoor::C_MapDoor(FILE * fr)
     Load(fr);
 
     title = "Unknown map";
+    map = NULL;
 }
 
 void C_MapDoor::FirstTime()
@@ -43,6 +44,7 @@ void C_MapDoor::FirstTime()
 
 void C_MapDoor::SetMap(C_Map * n_map)
 {
+    map = n_map;
 }
 
 C_MapDoor::C_MapDoor(int n_x, int n_y, int n_width, int n_height, C_Map * n_map)
@@ -126,10 +128,10 @@ void C_MapDoor::DrawContent()
 {
     C_LevelEditor * LE = C_LevelEditor::Inst();
     const GameSetup * GS = LE->GetGameSetup();
-    C_Map * map = LE->GetMap();
 
     if(map == NULL)
     {
+        map = LE->GetMap();
         return;
     }
 
@@ -223,7 +225,7 @@ void C_MapDoor::DoorEverTime()
     /////////////////////////
     // NASTAV DRAWMAPWIDTH //
     /////////////////////////
-    C_Map * map = C_LevelEditor::Inst()->GetMap();
+
     if(map != NULL) {
         drawMapWidth = width / (unsigned int) (tileWidth / sizeDivide);
         if(width % (unsigned int) (tileWidth / sizeDivide) >= 3)
@@ -327,7 +329,6 @@ void C_MapDoor::DoorActionDown(int button)
 
 void C_MapDoor::DoorActionUp(int button)
 {
-    C_Map * map = C_LevelEditor::Inst()->GetMap();
     if(map == NULL)
         return;
 
@@ -430,7 +431,6 @@ void C_MapDoor::DoorActionUp(int button)
 
 void C_MapDoor::Go(C_Map::E_DIRECT direct, int nStep)
 {
-    C_Map * map = C_LevelEditor::Inst()->GetMap();
     if(map == NULL)
         return;
 

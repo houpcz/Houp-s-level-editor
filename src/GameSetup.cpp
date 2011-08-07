@@ -50,9 +50,9 @@ C_Map * GameSetup::GetPattern(int id)
 
 void GameSetup::Save()
 {
+    char path[256];
     if(name.size() > 0)
     {
-        char path[256];
         sprintf(path, "%s/%s.hle", name.c_str(), name.c_str());
         FILE *fw = fopen(path, "wb");
         FileMan * fm = FileMan::Inst();
@@ -65,16 +65,23 @@ void GameSetup::Save()
         fm->SaveInteger(tileInCol, fw);
         fclose(fw);
     }
+
+
+    for(int loop1 = 0; loop1 < pattern.size(); loop1++)
+    {
+        sprintf(path, "%s/Patterns/pattern%d.lev", name.c_str(), loop1);
+        pattern[loop1]->Save(path);
+    }
 }
 
 bool GameSetup::Load(string projectName)
 {
     char path[256];
     sprintf(path, "%s/%s.hle", projectName.c_str(), projectName.c_str());
+    FileMan * fm = FileMan::Inst();
     FILE *fr = fopen(path, "rb");
     if(fr != NULL)
     {
-        FileMan * fm = FileMan::Inst();
         fm->LoadInteger(mapBGColorRed, fr);
         fm->LoadInteger(mapBGColorGreen, fr);
         fm->LoadInteger(mapBGColorBlue, fr);
@@ -84,10 +91,22 @@ bool GameSetup::Load(string projectName)
         fm->LoadInteger(tileInCol, fr);
         name = projectName;
         fclose(fr);
+
+        pattern.clear();
+        sprintf(path, "%s/Patterns/", projectName.c_str());
+        string src = path;
+        vector<string> patternFiles = fm->GetFileList(src + "*.lev", true);
+        C_Map * tempMap;
+        for(int loop1 = 0; loop1 < patternFiles.size(); loop1++)
+        {
+            tempMap = new C_Map();
+            tempMap->Load("Pattern", path + patternFiles[loop1]);
+            pattern.push_back(tempMap);
+        }
+
         return true;
     }
     return false;
-
 }
 
 // TODO : Save itselves and load

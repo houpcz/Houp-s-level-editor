@@ -355,6 +355,8 @@ void C_LevelEditor::NewProject(string name)
 
         FileMan::Inst()->MakeDirectory(name + "/Maps");
         FileMan::Inst()->MakeDirectory(name + "/Tiles");
+        FileMan::Inst()->MakeDirectory(name + "/Patterns");
+
         delete gameSetup;
         gameSetup = new GameSetup();
         SetGameName(name);
