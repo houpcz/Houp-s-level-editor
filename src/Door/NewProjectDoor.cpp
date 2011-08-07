@@ -31,8 +31,8 @@ C_NewProjectDoor::~C_NewProjectDoor()
 
 void C_NewProjectDoor::FirstTime()
 {
-    fProjectName = new C_Input(100, 10, 8, 1, "map01", "Level name");
-    label[0] = new C_Label(5, 10, 6, 1, "Name", "nohelp");
+    fProjectName = new C_Input(80, 10, 10, 1, "ProjectNa", "Level name");
+    label[0] = new C_Label(5, 10, 4, 1, "Name", "nohelp");
     bOk = new C_Button(60, 35, 40, 20, "OK");
 
     AddFormElement(fProjectName);
@@ -44,6 +44,8 @@ void C_NewProjectDoor::FirstTime()
     resizeableHorizontal = false;
     minimalizeable = false;
     isTitle = true;
+
+    SetDontSave(true);
 }
 
 void C_NewProjectDoor::DoorActionDown(int button)

@@ -51,9 +51,9 @@ void C_ScriptSystem::NewScriptKind()
     //C_DoorSystem::Inst()->OpenNewDoor(D_NEW_SCRIPT_KIND, scriptKind.size() - 1);
 }
 
-void C_ScriptSystem::SaveScriptKind()
+void C_ScriptSystem::SaveScriptKind(string name)
 {
-    string src = C_LevelEditor::Inst()->GetGameSetup()->GetName() + "/Script.dat";
+    string src = name + "/Script.dat";
     FILE *fw;
     int size = scriptKind.size();
 
@@ -84,6 +84,14 @@ void C_ScriptSystem::LoadScriptKind()
         }
         fclose(fr);
     }
+}
+
+void C_ScriptSystem::CreateNewProject(string name)
+{
+    string src = name + "/Script.dat";
+    scriptKind.clear();
+
+    SaveScriptKind(name);
 }
 
 void C_ScriptSystem::SaveXML()

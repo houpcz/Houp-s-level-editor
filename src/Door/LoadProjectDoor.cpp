@@ -64,8 +64,8 @@ void C_LoadProjectDoor::FirstTime()
         allFileNames = "Use new project button";
     }
 
-    fProjectName = new C_Input(100, 10, 8, 1, temp, allFileNames);
-    label[0] =  new C_Label(5, 10, 6, 1, "Name", "nohelp");
+    fProjectName = new C_Input(80, 10, 10, 1, temp, allFileNames);
+    label[0] =  new C_Label(5, 10, 4, 1, "Name", "nohelp");
     bOk = new C_Button(110, 35, 40, 20, "OK");
     bNext = new C_Button(240, 10, 20, 20, ">", FontMan::ALIGN_HCENTER | FontMan::ALIGN_VCENTER, "Shows next file in levels directory");
     bBack = new C_Button(215, 10, 20, 20, "<", FontMan::ALIGN_HCENTER | FontMan::ALIGN_VCENTER, "Shows previous file in levels directory");

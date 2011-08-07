@@ -2,6 +2,7 @@
 #include "engine.h"
 #include "map.h"
 #include "Utils/FileMan.h"
+#include "Script/ScriptSystem.h"
 
 using namespace std;
 
@@ -301,7 +302,8 @@ void C_LevelEditor::Save()
       fprintf(stderr, "Init soubor neexistuje.");
     }
     fclose(fw);
-    gameSetup->Save();
+
+    SaveActiveProject();
 }
 
 void C_LevelEditor::Load()
@@ -318,22 +320,44 @@ void C_LevelEditor::Load()
     } else {
         fprintf(stderr, "Init soubor neexistuje.");
     }
-    //gameSetup->Load("Atlantis");
+
     fclose(fr);
 }
 
 void C_LevelEditor::LoadProject(string name)
 {
-    gameSetup->Load(name);
+    SaveActiveProject();
+    // TODO save opened project
+    if(gameSetup->Load(name))
+    {
+        delete map;
+        map = NULL;
+
+        C_ScriptSystem::Inst()->LoadScriptKind();
+    }
+}
+
+void C_LevelEditor::SaveActiveProject()
+{
+    gameSetup->Save();
 }
 
 void C_LevelEditor::NewProject(string name)
 {
+    SaveActiveProject();
+    // TODO save opened project
     if(FileMan::Inst()->MakeDirectory(name))
     {
+        delete map;
+        map = NULL;
+
+        FileMan::Inst()->MakeDirectory(name + "/Maps");
+        FileMan::Inst()->MakeDirectory(name + "/Tiles");
         delete gameSetup;
         gameSetup = new GameSetup();
         SetGameName(name);
+        C_ScriptSystem::Inst()->CreateNewProject(name);
+        SaveActiveProject();
     }
 }
 
@@ -356,6 +380,7 @@ void C_LevelEditor::SetGameName(string name)
 
 void C_LevelEditor::LoadMap(string name)
 {
+    // TODO Save opened map
     if(map == NULL)
         map = new C_Map();
 
@@ -364,6 +389,7 @@ void C_LevelEditor::LoadMap(string name)
 
 void C_LevelEditor::NewMap(string name, int nLayers, int width, int height)
 {
+    // TODO Save opened map
     if(map == NULL)
         map = new C_Map();
     map->New(name, nLayers, width, height);

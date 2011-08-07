@@ -17,7 +17,8 @@ bool C_TextureTGA::Load(S_Texture * texture, const char * filename)				// Load a
 	if(fTGA == NULL)											// If it didn't open....
 	{
 		//MessageBox(NULL, "Could not open texture file", "ERROR", MB_OK);	// Display an error message
-		fprintf(stderr, "Could not open texture file %s\n", filename);
+		// TODO Exception no texture
+		//fprintf(stderr, "Could not open texture file %s\n", filename);
 		return false;														// Exit function
 	}
 

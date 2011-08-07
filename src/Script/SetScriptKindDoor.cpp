@@ -1,6 +1,7 @@
 #include "ScriptSystem.h"
 #include "..\Door\DoorSystem.h"
 #include "SetScriptKindDoor.h"
+#include "..\LevelEditor.h"
 
 C_SetScriptKindDoor::C_SetScriptKindDoor(FILE * fr)
 {
@@ -134,7 +135,7 @@ void C_SetScriptKindDoor::DoorActionDown(int button)
 
         if(bSave->GetIsPushedAndUnpush())
         {
-            C_ScriptSystem::Inst()->SaveScriptKind();
+            C_ScriptSystem::Inst()->SaveScriptKind(C_LevelEditor::Inst()->GetGameSetup()->GetName());
 
         }
 

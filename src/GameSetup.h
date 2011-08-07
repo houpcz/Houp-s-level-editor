@@ -21,7 +21,7 @@ class GameSetup
         GameSetup();
         ~GameSetup();
         void Save();
-        void Load(string projectName);
+        bool Load(string projectName);
 
         int GetTileWidth() const {return tileWidth;};
         int GetTileHeight() const {return tileHeight;};

@@ -50,21 +50,24 @@ C_Map * GameSetup::GetPattern(int id)
 
 void GameSetup::Save()
 {
-    char path[256];
-    sprintf(path, "%s/%s.hle", name.c_str(), name.c_str());
-    FILE *fw = fopen(path, "wb");
-    FileMan * fm = FileMan::Inst();
-    fm->SaveInteger(mapBGColorRed, fw);
-    fm->SaveInteger(mapBGColorGreen, fw);
-    fm->SaveInteger(mapBGColorBlue, fw);
-    fm->SaveInteger(tileWidth, fw);
-    fm->SaveInteger(tileHeight, fw);
-    fm->SaveInteger(tileInRow, fw);
-    fm->SaveInteger(tileInCol, fw);
-    fclose(fw);
+    if(name.size() > 0)
+    {
+        char path[256];
+        sprintf(path, "%s/%s.hle", name.c_str(), name.c_str());
+        FILE *fw = fopen(path, "wb");
+        FileMan * fm = FileMan::Inst();
+        fm->SaveInteger(mapBGColorRed, fw);
+        fm->SaveInteger(mapBGColorGreen, fw);
+        fm->SaveInteger(mapBGColorBlue, fw);
+        fm->SaveInteger(tileWidth, fw);
+        fm->SaveInteger(tileHeight, fw);
+        fm->SaveInteger(tileInRow, fw);
+        fm->SaveInteger(tileInCol, fw);
+        fclose(fw);
+    }
 }
 
-void GameSetup::Load(string projectName)
+bool GameSetup::Load(string projectName)
 {
     char path[256];
     sprintf(path, "%s/%s.hle", projectName.c_str(), projectName.c_str());
@@ -80,8 +83,11 @@ void GameSetup::Load(string projectName)
         fm->LoadInteger(tileInRow, fr);
         fm->LoadInteger(tileInCol, fr);
         name = projectName;
+        fclose(fr);
+        return true;
     }
-    fclose(fr);
+    return false;
+
 }
 
 // TODO : Save itselves and load

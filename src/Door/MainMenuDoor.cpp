@@ -85,6 +85,9 @@ void C_MainMenuDoor::DoorActionDown(int button)
                 case OPEN_PROJECT :
                     C_DoorSystem::Inst()->OpenNewDoor(D_LOAD_PROJECT);
                     break;
+                case NEW_PROJECT :
+                    C_DoorSystem::Inst()->OpenNewDoor(D_NEW_PROJECT);
+                    break;
             }
             break;
         }

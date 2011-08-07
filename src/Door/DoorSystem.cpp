@@ -465,6 +465,7 @@ void C_DoorSystem::OpenNewDoor(int kind, int temp)
 
         case D_SET_EDITOR : door.push_back(new C_SetEditorDoor(130,111, 220, 120, "Set editor")); break;
         case D_LOAD_PROJECT : door.push_back(new C_LoadProjectDoor(50,54, 260, 60, "Load project")); break;
+        case D_NEW_PROJECT : door.push_back(new C_NewProjectDoor(110,111, 220, 60, "New project")); break;
 
         case D_NEW_MAP : door.push_back(new C_NewMapDoor(110,111, 220, 120, "New map")); break;
         case D_SET_MAP : door.push_back(new C_SetMapDoor(130,111, 220, 120, "Set map")); break;

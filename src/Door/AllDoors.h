@@ -6,6 +6,7 @@
 #include "MainMenuDoor.h"
 #include "MenuDoor.h"
 #include "NewMapDoor.h"
+#include "NewProjectDoor.h"
 #include "SetMapDoor.h"
 #include "SetEditorDoor.h"
 #include "LoadMapDoor.h"

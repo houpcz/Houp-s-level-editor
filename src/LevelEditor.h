@@ -75,6 +75,7 @@ class C_LevelEditor
 
         void LoadProject(string name);
         void NewProject(string name);
+        void SaveActiveProject();
         const GameSetup * GetGameSetup() { return gameSetup; };
         void SetTileWidth(int n_tileWidth) { gameSetup->SetTileWidth(n_tileWidth);};
         void SetTileHeight(int n_tileHeight) { gameSetup->SetTileHeight(n_tileHeight);};

@@ -165,8 +165,11 @@ void C_Map::DrawTile(unsigned int id, unsigned int layer, double sizeDivide)
     int tileHeight =  GS->GetTileHeight();
 
     S_Texture * text = C_Map::GetTexture(layer, i);
-    if(text == NULL)
-        fprintf(stderr, "i %d x %d y %d id %d - %X tile %d", i, x, y, id, id, tileID);
+    if(text == NULL) {
+        //fprintf(stderr, "i %d x %d y %d id %d - %X tile %d", i, x, y, id, id, tileID);
+        // TODO write on map that this tile doesnt exist
+        return;
+    }
     glBindTexture(GL_TEXTURE_2D, text->texID);
 
     float x1 = ((float) x  * tileWidth) / text->width;

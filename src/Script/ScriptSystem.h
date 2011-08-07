@@ -32,8 +32,9 @@ class C_ScriptSystem
 
         void DeleteScriptKind(unsigned int iKind);
         void NewScriptKind();
-        void SaveScriptKind();
+        void SaveScriptKind(string name);
         void LoadScriptKind();
+        void CreateNewProject(string name);
 
         void DeleteScript(unsigned int iScript);
         void DeleteAllScript() {script.clear(); DeleteAllGroup();};
