@@ -23,6 +23,7 @@ C_LevelEditor::~C_LevelEditor()
         delete inst;
     inst = NULL;
     delete map;
+    delete gameSetup;
     map = NULL;
 }
 
@@ -295,12 +296,11 @@ void C_LevelEditor::Save()
     if((fw = fopen("init.txt", "w")) != NULL)
     {
       fprintf(fw, "Screen resolution   > %d x %d\n", App::Inst()->GetScreenWidth(), App::Inst()->GetScreenHeight());
-      fprintf(fw, "Tile width x height > %d x %d\n", gameSetup->GetTileWidth(), gameSetup->GetTileHeight());
-      fprintf(fw, "Map background color> %d %d %d\n", gameSetup->GetMapBGCR(), gameSetup->GetMapBGCG(), gameSetup->GetMapBGCB());
     } else {
       fprintf(stderr, "Init soubor neexistuje.");
     }
     fclose(fw);
+    gameSetup->Save();
 }
 
 void C_LevelEditor::Load()
@@ -314,30 +314,16 @@ void C_LevelEditor::Load()
             App::Inst()->SetScreenWidth(screenWidth);
             App::Inst()->SetScreenHeight(screenHeight);
         }
-        int tileWidth, tileHeight;
-        if(fscanf(fr, "Tile width x height > %d x %d\n", &tileWidth, &tileHeight) != 2)
-        {
-            tileWidth = 32;
-            tileHeight = 32;
-        }
-        SetTileWidth(tileWidth);
-        SetTileHeight(tileHeight);
-
-        int red, green, blue;
-        if(fscanf(fr, "Map background color> %d %d %d\n", &red, &green, &blue) != 3)
-        {
-            red = 32;
-            green = 32;
-            blue = 111;
-        }
-        SetMapBGCB(blue);
-        SetMapBGCG(green);
-        SetMapBGCR(red);
-        SetGameName("Atlantis"); // TODO atlantis
     } else {
         fprintf(stderr, "Init soubor neexistuje.");
     }
+    //gameSetup->Load("Atlantis");
     fclose(fr);
+}
+
+void C_LevelEditor::LoadProject(string name)
+{
+    gameSetup->Load(name);
 }
 
 string C_LevelEditor::GetMapSrc(string name)

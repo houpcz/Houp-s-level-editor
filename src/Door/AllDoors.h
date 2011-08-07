@@ -9,6 +9,7 @@
 #include "SetMapDoor.h"
 #include "SetEditorDoor.h"
 #include "LoadMapDoor.h"
+#include "LoadProjectDoor.h"
 #include "SaveMapDoor.h"
 #include "MapDoor.h"
 #include "TileDoor.h"

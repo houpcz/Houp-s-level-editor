@@ -129,6 +129,36 @@ vector<string> FileMan::GetFileList(string src, bool sufix)
     return fileName;
 }
 
+vector<string> FileMan::GetDirectoryList(string src)
+{
+    WIN32_FIND_DATA f;
+    HANDLE h = FindFirstFile(src.c_str(), &f);
+    vector<string> fileName;
+
+    size_t found;
+    string temp;
+    if(h != INVALID_HANDLE_VALUE)
+    {
+        do
+        {
+            temp = f.cFileName;
+            if (f.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY)
+            {
+                if(temp.compare(".") != 0 &&
+                   temp.compare("..") != 0)
+                    fileName.push_back(temp);
+            }
+
+        } while(FindNextFile(h, &f));
+    }
+    else
+    {
+        fprintf(stderr, "Error opening directory %s\n", src.c_str());
+    }
+
+    return fileName;
+}
+
 bool FileMan::MakeDirectory(string src)
 {
     return CreateDirectory(src.c_str(), NULL);

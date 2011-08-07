@@ -1761,7 +1761,7 @@
 	"..\Utils\FileMan.h"
 	"..\Utils\FontMan.h"
 
-1309592142 c:\_projekty\hle\src\door\door.h
+1312722712 c:\_projekty\hle\src\door\door.h
 	"String.h"
 	"..\Form\Button.h"
 	"..\Form\Form.h"
@@ -1814,12 +1814,12 @@
 1292845644 c:\_projekty\hle\src\door\informdoor.h
 	"Door.h"
 
-1312712408 c:\_projekty\hle\src\utils\fileman.h
+1312723523 c:\_projekty\hle\src\utils\fileman.h
 	<SDL/SDL.h>
 	<string>
 	<vector>
 
-1309592274 source:c:\_projekty\hle\src\door\doorsystem.cpp
+1312723052 source:c:\_projekty\hle\src\door\doorsystem.cpp
 	"DoorSystem.h"
 	"..\Script\ScriptSystem.h"
 	"..\Script\ScriptDoor.h"
@@ -1895,7 +1895,7 @@
 
 1286988690 c:\_projekty\hle\src\script\setscriptkinddoor.h
 
-1307899980 c:\_projekty\hle\src\door\alldoors.h
+1312723077 c:\_projekty\hle\src\door\alldoors.h
 	"Door.h"
 	"InformDoor.h"
 	"MainMenuDoor.h"
@@ -1904,12 +1904,13 @@
 	"SetMapDoor.h"
 	"SetEditorDoor.h"
 	"LoadMapDoor.h"
+	"LoadProjectDoor.h"
 	"SaveMapDoor.h"
 	"MapDoor.h"
 	"TileDoor.h"
 	"PatternDoor.h"
 
-1312716578 c:\_projekty\hle\src\door\mainmenudoor.h
+1312721565 c:\_projekty\hle\src\door\mainmenudoor.h
 	"..\Utils\TextureLoader.h"
 
 1292845644 c:\_projekty\hle\src\door\menudoor.h
@@ -1936,14 +1937,14 @@
 	"..\Map.h"
 	"..\LevelEditor.h"
 
-1312659966 c:\_projekty\hle\src\leveleditor.h
+1312722796 c:\_projekty\hle\src\leveleditor.h
 	"Map.h"
 	"TilePattern.h"
 	"GameSetup.h"
 	<map>
 	<vector>
 
-1312660305 c:\_projekty\hle\src\gamesetup.h
+1312719934 c:\_projekty\hle\src\gamesetup.h
 	"map.h"
 	<vector>
 
@@ -1957,7 +1958,7 @@
 	"..\Utils\FontMan.h"
 	<string.h>
 
-1312709628 source:c:\_projekty\hle\src\door\loadmapdoor.cpp
+1312723856 source:c:\_projekty\hle\src\door\loadmapdoor.cpp
 	<string>
 	"door.h"
 	"DoorSystem.h"
@@ -1966,7 +1967,7 @@
 	"..\LevelEditor.h"
 	"..\Utils\FileMan.h"
 
-1312716786 source:c:\_projekty\hle\src\door\mainmenudoor.cpp
+1312723010 source:c:\_projekty\hle\src\door\mainmenudoor.cpp
 	<string>
 	"..\Utils\TextureMan.h"
 	"..\Utils\Painter.h"
@@ -2099,12 +2100,14 @@
 	"Form.h"
 	"Input.h"
 
-1309622613 source:c:\_projekty\hle\src\gamesetup.cpp
+1312720958 source:c:\_projekty\hle\src\gamesetup.cpp
 	"GameSetup.h"
 	"LevelEditor.h"
 	<cstddef>
+	<stdio.h>
+	"Utils/FileMan.h"
 
-1312660471 source:c:\_projekty\hle\src\leveleditor.cpp
+1312722961 source:c:\_projekty\hle\src\leveleditor.cpp
 	"LevelEditor.h"
 	"engine.h"
 	"map.h"
@@ -2193,7 +2196,7 @@
 1293295386 source:c:\_projekty\hle\src\utils\color.cpp
 	"Color.h"
 
-1312712455 source:c:\_projekty\hle\src\utils\fileman.cpp
+1312723740 source:c:\_projekty\hle\src\utils\fileman.cpp
 	"FileMan.h"
 	<windows.h>
 
@@ -2256,4 +2259,16 @@
 
 1306613561 source:c:\_projekty\hle\src\utils\xml\xmlnode.cpp
 	"XMLNode.h"
+
+1312724243 source:c:\_projekty\hle\src\door\loadprojectdoor.cpp
+	<string>
+	"door.h"
+	"DoorSystem.h"
+	"LoadProjectDoor.h"
+	"..\Script\ScriptSystem.h"
+	"..\LevelEditor.h"
+	"..\Utils\FileMan.h"
+
+1312722684 c:\_projekty\hle\src\door\loadprojectdoor.h
+	"..\Form\Input.h"
 

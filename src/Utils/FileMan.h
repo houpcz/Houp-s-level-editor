@@ -32,6 +32,7 @@ class FileMan
          *
          */
         vector<string> GetFileList(string src, bool sufix);
+        vector<string> GetDirectoryList(string src);
         bool MakeDirectory(string src);
 };
 

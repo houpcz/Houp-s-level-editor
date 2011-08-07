@@ -52,7 +52,7 @@ void C_LoadMapDoor::FirstTime()
         temp = "Map01";
     }
 
-    fMapName = new C_Input(100, 10, 8, 1, temp, "Level name" + allFileNames);
+    fMapName = new C_Input(100, 10, 8, 1, temp, allFileNames);
     label[0] =  new C_Label(5, 10, 6, 1, "Name", "nohelp");
     bOk = new C_Button(110, 35, 40, 20, "OK");
     bNext = new C_Button(240, 10, 20, 20, ">", FontMan::ALIGN_HCENTER | FontMan::ALIGN_VCENTER, "Shows next file in levels directory");
@@ -69,6 +69,7 @@ void C_LoadMapDoor::FirstTime()
     resizeableHorizontal = false;
     minimalizeable = false;
     isTitle = true;
+    SetDontSave(true);
 }
 
 void C_LoadMapDoor::DoorActionDown(int button)

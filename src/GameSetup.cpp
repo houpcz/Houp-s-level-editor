@@ -1,9 +1,19 @@
 #include "GameSetup.h"
 #include "LevelEditor.h"
 #include <cstddef>
+#include <stdio.h>
+#include "Utils/FileMan.h"
 
 GameSetup::GameSetup()
 {
+    tileWidth = 32;
+    tileHeight = 32;
+    tileInCol = 8;
+    tileInRow = 8;
+    mapBGColorRed = 255;
+    mapBGColorGreen = 255;
+    mapBGColorBlue = 255;
+    name = "";
 }
 
 GameSetup::~GameSetup()
@@ -36,6 +46,42 @@ C_Map * GameSetup::GetPattern(int id)
         pattern.push_back(one);
         return one;
     }
+}
+
+void GameSetup::Save()
+{
+    char path[256];
+    sprintf(path, "%s/%s.hle", name.c_str(), name.c_str());
+    FILE *fw = fopen(path, "wb");
+    FileMan * fm = FileMan::Inst();
+    fm->SaveInteger(mapBGColorRed, fw);
+    fm->SaveInteger(mapBGColorGreen, fw);
+    fm->SaveInteger(mapBGColorBlue, fw);
+    fm->SaveInteger(tileWidth, fw);
+    fm->SaveInteger(tileHeight, fw);
+    fm->SaveInteger(tileInRow, fw);
+    fm->SaveInteger(tileInCol, fw);
+    fclose(fw);
+}
+
+void GameSetup::Load(string projectName)
+{
+    name = projectName;
+    char path[256];
+    sprintf(path, "%s/%s.hle", name.c_str(), name.c_str());
+    FILE *fr = fopen(path, "rb");
+    if(fr != NULL)
+    {
+        FileMan * fm = FileMan::Inst();
+        fm->LoadInteger(mapBGColorRed, fr);
+        fm->LoadInteger(mapBGColorGreen, fr);
+        fm->LoadInteger(mapBGColorBlue, fr);
+        fm->LoadInteger(tileWidth, fr);
+        fm->LoadInteger(tileHeight, fr);
+        fm->LoadInteger(tileInRow, fr);
+        fm->LoadInteger(tileInCol, fr);
+    }
+    fclose(fr);
 }
 
 // TODO : Save itselves and load

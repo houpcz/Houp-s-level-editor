@@ -82,6 +82,9 @@ void C_MainMenuDoor::DoorActionDown(int button)
                 case SETUP_PROJECT :
                     C_DoorSystem::Inst()->OpenNewDoor(D_SET_EDITOR);
                     break;
+                case OPEN_PROJECT :
+                    C_DoorSystem::Inst()->OpenNewDoor(D_LOAD_PROJECT);
+                    break;
             }
             break;
         }
@@ -116,6 +119,8 @@ void C_MainMenuDoor::DoorActionIn()
             switch(tempX)
             {
                 case SETUP_PROJECT : C_DoorSystem::Inst()->OpenNewHelp("Setup project" + activeString); break;
+                case OPEN_PROJECT : C_DoorSystem::Inst()->OpenNewHelp("Open project" + activeString); break;
+                case NEW_PROJECT : C_DoorSystem::Inst()->OpenNewHelp("New project" + activeString); break;
             }
             break;
     }
@@ -126,15 +131,30 @@ bool C_MainMenuDoor::GetIsButtonActive(int x, int y)
      switch(y)
      {
          case ROW_PROJECT :
-            return true;
+            if(C_LevelEditor::Inst()->GetGameSetup()->GetName().size() != 0 ||
+               x == NEW_PROJECT || x == OPEN_PROJECT)
+            {
+                return true;
+            } else
+                return false;
+            break;
 
          case ROW_MAP :
-            if(C_LevelEditor::Inst()->GetMap() == NULL)
+            if(C_LevelEditor::Inst()->GetGameSetup()->GetName().size() != 0)
             {
-                if(x > 1)
-                    return false;
+                if(C_LevelEditor::Inst()->GetMap() != NULL)
+                {
+                    return true;
+                } else {
+                    if(x == OPEN_MAP || x == NEW_MAP) {
+                        return true;
+                    } else
+                        return false;
+                }
             } else
-                return true;
+                return false;
+
+            break;
      }
 }
 

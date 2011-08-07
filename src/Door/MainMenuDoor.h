@@ -10,14 +10,14 @@ class C_MainMenuDoor : public C_Door
             ROW_PROJECT = 0,
             ROW_MAP = 1,
             OPEN_MAP = 0,
-            NEW_MAP,
-            SETUP_MAP,
-            SAVE_MAP,
-            UNDO_MAP,
-            REDO_MAP,
+            NEW_MAP = 1,
+            SETUP_MAP = 2,
+            SAVE_MAP = 3,
+            UNDO_MAP = 4,
+            REDO_MAP = 5,
             OPEN_PROJECT = 0,
-            NEW_PROJECT,
-            SETUP_PROJECT
+            NEW_PROJECT = 1,
+            SETUP_PROJECT = 2
         };
         C_MainMenuDoor(const C_MainMenuDoor &);
         C_MainMenuDoor & operator=(const C_MainMenuDoor &);
