@@ -64,6 +64,7 @@ class C_Map
     public :
         C_Map();
         ~C_Map();
+
         void DrawMarkedTile(unsigned int mapX, unsigned int mapY, double sizeDivide);          // je-li dane policko zvyraznene, tak ho zvyrazni
         void DrawTile(int mapX, int mapY, unsigned int layer, double sizeDivide);
         static void DrawTile(unsigned id, unsigned int layer, double sizeDivide);

@@ -29,7 +29,7 @@ C_LoadProjectDoor::~C_LoadProjectDoor()
 void C_LoadProjectDoor::FirstTime()
 {
     char c_str[256];
-    sprintf(c_str, "*", C_LevelEditor::Inst()->GetGameSetup()->GetName().c_str());
+    sprintf(c_str, "*");
     string allFileNames = "";
     string temp;
 

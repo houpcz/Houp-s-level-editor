@@ -330,8 +330,8 @@ void C_LevelEditor::LoadProject(string name)
     // TODO save opened project
     if(gameSetup->Load(name))
     {
-        delete map;
-        map = NULL;
+        if(map != NULL)
+            map->New("no name", 2, 20, 20);
 
         C_ScriptSystem::Inst()->LoadScriptKind();
     }
@@ -350,8 +350,8 @@ void C_LevelEditor::NewProject(string name)
     // TODO save opened project
     if(FileMan::Inst()->MakeDirectory(name))
     {
-        delete map;
-        map = NULL;
+        if(map != NULL)
+            map->New("no name", 2, 20, 20);
 
         FileMan::Inst()->MakeDirectory(name + "/Maps");
         FileMan::Inst()->MakeDirectory(name + "/Tiles");

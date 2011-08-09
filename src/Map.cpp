@@ -18,6 +18,7 @@ C_Map::C_Map()
     actualBackup = 0;
     nBackup = 0;
     map = NULL;
+
     for(int loop1 = 0; loop1 < MAX_BACKUP; loop1++)
     {
         backup[loop1] = NULL;
@@ -50,6 +51,7 @@ void C_Map::DeleteMap()
 
         delete map;
     }
+    map = NULL;
 }
 
 void C_Map::DeleteBackup()
@@ -118,6 +120,9 @@ void C_Map::Reset()
 
 void C_Map::Draw(int left, int drawWidth, int top, int drawHeight, float scale, int layerMask)
 {
+    if(map == NULL)
+        return;
+
     int loop1, loop2, loop3;
     C_LevelEditor * LE = C_LevelEditor::Inst();
     const GameSetup * GS = LE->GetGameSetup();
@@ -311,6 +316,9 @@ void C_Map::DrawMarkedTile(unsigned int mapX, unsigned int mapY, double sizeDivi
 
 void C_Map::Save(string src)
 {
+    if(map == NULL)
+        return;
+
 	FILE *fw;
 	int mapx = mapWidth;
 	int mapy = mapHeight;
@@ -498,9 +506,14 @@ S_Texture * C_Map::GetTexture(int layer, int index)
     char src_c[50];
     string src = C_LevelEditor::Inst()->GetGameSetup()->GetName();
 
-    sprintf(src_c, "%s/Tiles/tileL%dI%d.tga", src.c_str(), layer, index);
-
+    sprintf(src_c, "%s/Tiles/tileL%dI%d.png", src.c_str(), layer, index);
     S_Texture * texture = C_TextureMan::Inst()->GetTexture(src_c);
+
+    if(texture == NULL)
+    {
+        sprintf(src_c, "%s/Tiles/tileL%dI%d.tga", src.c_str(), layer, index);
+        texture = C_TextureMan::Inst()->GetTexture(src_c);
+    }
 
     return texture;
 }

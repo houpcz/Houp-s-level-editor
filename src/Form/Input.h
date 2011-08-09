@@ -99,7 +99,14 @@ class C_InputInteger : public C_Input
     private :
         int min, max;       // minimalni a maximalni hodnoty ulozene v integeru. kdyz oboje nula, tak tam muze byt cokoliv
     public :
-        C_InputInteger(int n_x, int n_y, int n_lineLength, int n_nLines, string n_title, string n_help = "nohelp", char n_tR = 33, char n_tG = 66, char n_tB = 33, char n_pR = 180, char n_pG = 255, char n_pB = 180, char n_fR = 180, char n_fG = 180, char n_fB = 180, char n_aR = 255, char n_aG = 111, char n_aB = 111) : C_Input(n_x, n_y, n_lineLength, n_nLines, n_title, n_help, n_tR, n_tG, n_tB, n_pR, n_pG, n_pB, n_fR , n_fG, n_fB, n_aR, n_aG, n_aB) {};
+        C_InputInteger(int n_x, int n_y, int n_lineLength, int n_nLines, string n_title, string n_help = "nohelp",
+                       char n_tR = 33, char n_tG = 66, char n_tB = 33,
+                       char n_pR = 180, char n_pG = 255, char n_pB = 180,
+                       char n_fR = 180, char n_fG = 180, char n_fB = 180,
+                       char n_aR = 255, char n_aG = 111, char n_aB = 111) : C_Input(n_x, n_y, n_lineLength, n_nLines, n_title, n_help, n_tR, n_tG, n_tB, n_pR, n_pG, n_pB, n_fR , n_fG, n_fB, n_aR, n_aG, n_aB)
+                       {
+                            SetMinMax();
+                       };
         C_InputInteger(int n_min = -1, int n_max = -1) {min = n_min; max = n_max;};
         ~C_InputInteger() {};
         void SetMinMax(int n_min = -1, int n_max = -1) {min = n_min; max = n_max;};
