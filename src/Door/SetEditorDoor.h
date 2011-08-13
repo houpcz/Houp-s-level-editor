@@ -13,6 +13,8 @@ class C_SetEditorDoor : public C_Door            // formular k nastaveni paramet
         C_InputInteger * fMapColorBlue;
         C_InputInteger * fTileWidth;
         C_InputInteger * fTileHeight;
+        C_InputInteger * fMapWidth;
+        C_InputInteger * fMapHeight;
         C_Button * bOk;
 
         C_SetEditorDoor(const C_SetEditorDoor &);

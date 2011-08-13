@@ -40,6 +40,7 @@ void C_SetEditorDoor::FirstTime()
     fTileHeight = new C_InputInteger(100, 70, 3, 1, ToString(levelEditor->GetGameSetup()->GetTileHeight()).c_str(), "Tile height");
     fTileWidth->SetMinMax(16, 256);
     fTileHeight->SetMinMax(16, 256);
+
     AddFormElement(fTileWidth);
     AddFormElement(fTileHeight);
     AddFormElement(fName);
@@ -56,10 +57,21 @@ void C_SetEditorDoor::FirstTime()
     AddFormElement(fMapColorGreen);
     AddFormElement(fMapColorRed);
 
-    bOk = new C_Button(105, 130, 40, 20, "OK", alignCenter);
+    label = new C_Label(5, 130, 6, 1, "Map W", "Default map width", 0, 0, 0, 155, 155, 155, 155, 155, 155, 155, 155, 155);
+    AddFormElement(label);
+    fMapWidth = new C_InputInteger(100, 130, 3, 1, ToString(levelEditor->GetGameSetup()->GetMapWidth()).c_str(), "Default map width in tiles");
+    label = new C_Label(5, 160, 6, 1, "Map H", "Default map height", 0, 0, 0, 155, 155, 155, 155, 155, 155, 155, 155, 155);
+    AddFormElement(label);
+    fMapHeight = new C_InputInteger(100, 160, 3, 1, ToString(levelEditor->GetGameSetup()->GetMapHeight()).c_str(), "Default map height in tiles");
+    fMapWidth->SetMinMax(1, 1000);
+    fMapHeight->SetMinMax(1, 1000);
+    AddFormElement(fMapWidth);
+    AddFormElement(fMapHeight);
+
+    bOk = new C_Button(105, 190, 40, 20, "OK", alignCenter);
     title = "Set editor";
     width = 250;
-    height = 160;
+    height = 220;
 
     AddFormElement(bOk);
 
@@ -89,6 +101,8 @@ void C_SetEditorDoor::DoorActionDown(int button)
         {
             levelEditor->SetTileWidth(fTileWidth->GetInteger());
             levelEditor->SetTileHeight(fTileHeight->GetInteger());
+            levelEditor->SetDefaultMapWidth(fMapWidth->GetInteger());
+            levelEditor->SetDefaultMapHeight(fMapHeight->GetInteger());
             levelEditor->SetMapBGCR(fMapColorRed->GetInteger());
             levelEditor->SetMapBGCG(fMapColorGreen->GetInteger());
             levelEditor->SetMapBGCB(fMapColorBlue->GetInteger());

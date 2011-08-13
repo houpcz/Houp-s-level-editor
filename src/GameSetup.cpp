@@ -63,6 +63,8 @@ void GameSetup::Save()
         fm->SaveInteger(tileHeight, fw);
         fm->SaveInteger(tileInRow, fw);
         fm->SaveInteger(tileInCol, fw);
+        fm->SaveInteger(mapWidth, fw);
+        fm->SaveInteger(mapHeight, fw);
         fclose(fw);
     }
 
@@ -89,6 +91,8 @@ bool GameSetup::Load(string projectName)
         fm->LoadInteger(tileHeight, fr);
         fm->LoadInteger(tileInRow, fr);
         fm->LoadInteger(tileInCol, fr);
+        fm->LoadInteger(mapWidth, fr);
+        fm->LoadInteger(mapHeight, fr);
         name = projectName;
         fclose(fr);
 

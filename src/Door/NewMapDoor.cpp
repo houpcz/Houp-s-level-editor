@@ -32,8 +32,8 @@ C_NewMapDoor::~C_NewMapDoor()
 void C_NewMapDoor::FirstTime()
 {
     fMapName = new C_Input(100, 10, 8, 1, "map01", "Level name");
-    fMapWidth = new C_InputInteger(100, 40, 2, 1, "20", "Map width in tiles");
-    fMapHeight = new C_InputInteger(100, 70, 2, 1, "20", "Map height in tiles");
+    fMapWidth = new C_InputInteger(100, 40, 2, 1, ToString(C_LevelEditor::Inst()->GetGameSetup()->GetMapWidth()).c_str(), "Map width in tiles");
+    fMapHeight = new C_InputInteger(100, 70, 2, 1, ToString(C_LevelEditor::Inst()->GetGameSetup()->GetMapHeight()).c_str(), "Map height in tiles");
     label[0] = new C_Label(5, 40, 6, 1, "Width", "nohelp");
     label[1] = new C_Label(5, 70, 6, 1, "Height", "nohelp");
     label[2] = new C_Label(5, 10, 6, 1, "Name", "nohelp");

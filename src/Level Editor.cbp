@@ -99,7 +99,6 @@
 		<Unit filename="Resource.rc">
 			<Option compilerVar="WINDRES" />
 		</Unit>
-		<Unit filename="SaxInterface.h" />
 		<Unit filename="Script\NewScriptKindDoor.cpp" />
 		<Unit filename="Script\NewScriptKindDoor.h" />
 		<Unit filename="Script\Script.cpp" />
