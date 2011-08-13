@@ -6,6 +6,7 @@
 #include <iostream>
 #include <vector>
 #include <map>
+#include "XMLAttribute.h"
 
 using namespace std;
 
@@ -15,7 +16,7 @@ class XMLNode
         string name;
         string value;
 
-        map<string, string> attribute;
+        vector<XMLAttribute> attribute;
         vector<XMLNode *> children;
         bool Save(ofstream & fw, int depth);
         void SaveOffset(ofstream & fw, int depth);

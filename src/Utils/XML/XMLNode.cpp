@@ -39,10 +39,10 @@ void XMLNode::SaveOffset(ofstream & fw, int depth)
 
 void XMLNode::SaveAttributes(ofstream & fw)
 {
-    map<string, string>::iterator it;
+    vector<XMLAttribute>::iterator it;
     for(it = attribute.begin(); it != attribute.end(); ++it)
     {
-        fw << " " << it->first << "=\"" << it->second << "\"";
+        fw << " " << it->name << "=\"" << it->value << "\"";
     }
 }
 
@@ -87,5 +87,6 @@ void XMLNode::AddChild(XMLNode * child)
 
 void XMLNode::AddAttribute(string attrName, string attrValue)
 {
-    attribute[attrName] = attrValue;
+    XMLAttribute attr = XMLAttribute(attrName, attrValue);
+    attribute.push_back(attr);
 }

@@ -99,6 +99,7 @@
 		<Unit filename="Resource.rc">
 			<Option compilerVar="WINDRES" />
 		</Unit>
+		<Unit filename="SaxInterface.h" />
 		<Unit filename="Script\NewScriptKindDoor.cpp" />
 		<Unit filename="Script\NewScriptKindDoor.h" />
 		<Unit filename="Script\Script.cpp" />
@@ -141,6 +142,10 @@
 		<Unit filename="Utils\TextureTGA.h" />
 		<Unit filename="Utils\XML\ManXML.cpp" />
 		<Unit filename="Utils\XML\ManXML.h" />
+		<Unit filename="Utils\XML\SaxInterface.h" />
+		<Unit filename="Utils\XML\SaxParser.cpp" />
+		<Unit filename="Utils\XML\SaxParser.h" />
+		<Unit filename="Utils\XML\XMLAttribute.h" />
 		<Unit filename="Utils\XML\XMLNode.cpp" />
 		<Unit filename="Utils\XML\XMLNode.h" />
 		<Extensions>

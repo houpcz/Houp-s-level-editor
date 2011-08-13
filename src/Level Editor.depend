@@ -1861,12 +1861,13 @@
 	"..\Utils\FontMan.h"
 	"Button.h"
 
-1306529888 c:\_projekty\hle\src\utils\xml\xmlnode.h
+1312912444 c:\_projekty\hle\src\utils\xml\xmlnode.h
 	<string>
 	<fstream>
 	<iostream>
 	<vector>
 	<map>
+	"XMLAttribute.h"
 
 1312881099 c:\_projekty\hle\src\map.h
 	"Utils\TextureLoader.h"
@@ -2260,7 +2261,7 @@
 	<fstream>
 	<iostream>
 
-1306613561 source:c:\_projekty\hle\src\utils\xml\xmlnode.cpp
+1312912590 source:c:\_projekty\hle\src\utils\xml\xmlnode.cpp
 	"XMLNode.h"
 
 1312881267 source:c:\_projekty\hle\src\door\loadprojectdoor.cpp
@@ -2286,4 +2287,21 @@
 
 1312727285 c:\_projekty\hle\src\door\newprojectdoor.h
 	"..\Form\Input.h"
+
+1312915346 source:c:\_projekty\hle\src\utils\xml\saxparser.cpp
+	"SaxParser.h"
+	<stdlib.h>
+	<fstream>
+	<iostream>
+
+1312914037 c:\_projekty\hle\src\utils\xml\saxparser.h
+	"SaxInterface.h"
+
+1312912630 c:\_projekty\hle\src\utils\xml\xmlattribute.h
+	<string>
+
+1312913836 c:\_projekty\hle\src\utils\xml\saxinterface.h
+	<string>
+	<vector>
+	"XMLAttribute.h"
 
